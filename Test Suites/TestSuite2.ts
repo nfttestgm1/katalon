@@ -12,17 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>eb2be81a-f897-40de-8a39-bcad1d8cde45</testSuiteGuid>
    <testCaseLink>
-      <guid>facfe240-fc43-424b-bf58-c53265ed1da8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/SampleMarketTC</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>60c84ec2-e489-4918-a2b5-88932ecb9b0d</guid>
+      <guid>b4b11118-3d6c-4584-b947-e954a18ae742</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SampleTestCase</testCaseId>
+      <testCaseId>Test Cases/SampleOrangeHRM_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
