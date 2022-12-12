@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteForDataDrivenTests" time="24.021" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteForDataDrivenTests" tests="2" failures="0" errors="0" time="24.021" skipped="0" timestamp="2022-12-11 17:41:46" hostname="LAP15239-local - ManhTT" id="Test Suites/TestSuiteForDataDrivenTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221211_174135\\TestSuiteForDataDrivenTests\\20221211_174136"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221211_174135\\TestSuiteForDataDrivenTests\\20221211_174136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - ManhTT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.25.41.125"/>
+         <property name="sessionId" value="3aef97dc97482626dffb02c62643da12"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTests/Test1_DataDrivenTests" time="12.723" classname="Test Cases/DataDrivenTests/Test1_DataDrivenTests" status="PASSED">
+         <system-out><![CDATA[2022-12-11 17:41:46 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTests/Test1_DataDrivenTests: Test Cases/DataDrivenTests/Test1_DataDrivenTests
+
+2022-12-11 17:41:47 - [TEST_STEP][PASSED] - name = "Automation": null
+
+2022-12-11 17:41:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-11 17:41:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-11 17:41:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-11 17:41:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-11 17:41:49 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-11 17:41:53 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-11 17:41:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-11 17:41:55 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-11 17:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, 1)): Text 'admin123' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-11 17:41:56 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-11 17:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-11 17:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-11 17:41:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-11 17:41:57 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-11 17:41:59 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DataDrivenTests/Test1_DataDrivenTests' .
+
+2022-12-11 17:41:59 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DataDrivenTests/Test1_DataDrivenTests' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTests/Test1_DataDrivenTests" time="10.967" classname="Test Cases/DataDrivenTests/Test1_DataDrivenTests" status="PASSED">
+         <system-out><![CDATA[2022-12-11 17:41:59 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTests/Test1_DataDrivenTests: Test Cases/DataDrivenTests/Test1_DataDrivenTests
+
+2022-12-11 17:41:59 - [TEST_STEP][PASSED] - name = "Automation": null
+
+2022-12-11 17:41:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-11 17:41:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-11 17:41:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-11 17:42:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-11 17:42:00 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-11 17:42:04 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-11 17:42:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, 1)): Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-11 17:42:06 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-11 17:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, 1)): Text 'admin123' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-11 17:42:07 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-11 17:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-11 17:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-11 17:42:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-11 17:42:08 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-11 17:42:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DataDrivenTests/Test1_DataDrivenTests' .
+
+2022-12-11 17:42:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DataDrivenTests/Test1_DataDrivenTests' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-11 17:41:46 - [TEST_SUITE][PASSED] - TestSuiteForDataDrivenTests: Test Cases/DataDrivenTests/Test1_DataDrivenTests]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

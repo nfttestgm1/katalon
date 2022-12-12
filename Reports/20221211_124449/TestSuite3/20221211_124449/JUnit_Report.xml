@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite3" time="25.232" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite3" tests="1" failures="0" errors="0" time="25.232" skipped="0" timestamp="2022-12-11 12:44:58" hostname="LAP15239-local - ManhTT" id="Test Suites/TestSuite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221211_124449\\TestSuite3\\20221211_124449"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221211_124449\\TestSuite3\\20221211_124449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - ManhTT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 107.0"/>
+         <property name="hostAddress" value="172.25.41.125"/>
+         <property name="sessionId" value="14bedc03-3f54-4716-844b-719bd519b0b5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SampleMKP_TC" time="24.968" classname="Test Cases/SampleMKP_TC" status="PASSED">
+         <system-out><![CDATA[2022-12-11 12:44:59 - [TEST_CASE][PASSED] - Test Cases/SampleMKP_TC: Test Cases/SampleMKP_TC
+
+2022-12-11 12:44:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-11 12:44:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-12-11 12:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-11 12:45:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-11 12:45:06 - [TEST_STEP][PASSED] - navigateToUrl(Url_MKP): Navigate to 'https://market.test.yoverse.io/' successfully
+
+2022-12-11 12:45:11 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io/' successfully
+
+2022-12-11 12:45:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch"), "search demo"): Text 'search demo' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:15 - [MESSAGE][PASSED] - Text 'search demo' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch"), ""): Text '' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test2_MKP/Page_YoVerse Market/div_Explore")): Object: 'Object Repository/Test2_MKP/Page_YoVerse Market/div_Explore' is clicked on
+
+2022-12-11 12:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_MKP/Page_YoVerse Market/div_Explore' is clicked on
+
+2022-12-11 12:45:17 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("Test2_MKP/Page_YoVerse Market/inputToSearch"), 0): NOT_RUN: waitForElementPresent(findTestObject("Test2_MKP/Page_YoVerse Market/inputToSearch"), 0)
+
+2022-12-11 12:45:17 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("Test2_MKP/Page_YoVerse Market/inputToSearch"), 0)
+
+2022-12-11 12:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_MKP/Page_YoVerse Market/inputToSearch"), "clear demo"): Text 'clear demo' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:19 - [MESSAGE][PASSED] - Text 'clear demo' is set on object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'
+
+2022-12-11 12:45:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Test2_MKP/Page_YoVerse Market/inputToSearch"), STOP_ON_FAILURE): Text of object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch' is cleared
+
+2022-12-11 12:45:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch' is cleared
+
+2022-12-11 12:45:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-11 12:45:22 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-11 12:45:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/SampleMKP_TC' .
+
+2022-12-11 12:45:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/SampleMKP_TC' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-11 12:44:58 - [TEST_SUITE][PASSED] - TestSuite3: Test Cases/SampleMKP_TC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

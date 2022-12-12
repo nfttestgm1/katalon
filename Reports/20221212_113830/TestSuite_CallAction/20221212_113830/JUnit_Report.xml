@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_CallAction" time="23.954" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite_CallAction" tests="1" failures="0" errors="0" time="23.954" skipped="0" timestamp="2022-12-12 11:38:38" hostname="LAP15239-local - ManhTT" id="Test Suites/TestSuite_CallAction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221212_113830\\TestSuite_CallAction\\20221212_113830"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221212_113830\\TestSuite_CallAction\\20221212_113830\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - ManhTT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.25.42.186"/>
+         <property name="sessionId" value="9c81c34b335d068b83f341dbab6c5618"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CallTest/Test2_CallTest" time="23.759" classname="Test Cases/CallTest/Test2_CallTest" status="PASSED">
+         <system-out><![CDATA[2022-12-12 11:38:39 - [TEST_CASE][PASSED] - Test Cases/CallTest/Test2_CallTest: Test Cases/CallTest/Test2_CallTest
+
+2022-12-12 11:38:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginTest/Test1_LoginTest"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginTest/Test1_LoginTest' successfully
+
+2022-12-12 11:38:39 - [TEST_CASE][PASSED] - Test Cases/LoginTest/Test1_LoginTest: Test Cases/LoginTest/Test1_LoginTest
+
+2022-12-12 11:38:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-12 11:38:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-12 11:38:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-12 11:38:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-12 11:38:42 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-12 11:38:49 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-12 11:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), Username): Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-12 11:38:51 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'
+
+2022-12-12 11:38:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), EncryptedPassword): Text ****** has been set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-12 11:38:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'
+
+2022-12-12 11:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-12 11:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-12 11:38:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginTest/Test1_LoginTest' successfully
+
+2022-12-12 11:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Admin")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2022-12-12 11:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Admin' is clicked on
+
+2022-12-12 11:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Leave")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+2022-12-12 11:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Leave' is clicked on
+
+2022-12-12 11:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Time")): Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+2022-12-12 11:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Time' is clicked on
+
+2022-12-12 11:39:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-12 11:39:00 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-12 11:39:02 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/CallTest/Test2_CallTest' .
+
+2022-12-12 11:39:02 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/CallTest/Test2_CallTest' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-12 11:38:38 - [TEST_SUITE][PASSED] - TestSuite_CallAction: Test Cases/CallTest/Test2_CallTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

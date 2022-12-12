@@ -1,0 +1,56 @@
+1
+00:00:00,285 --> 00:00:00,290
+1. name = "Automation"
+
+2
+00:00:00,299 --> 00:00:02,702
+5. openBrowser("")
+
+3
+00:00:02,703 --> 00:00:11,067
+9. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:11,067 --> 00:00:11,633
+13. println("findTestData("data1").getRowNumbers() = " + findTestData("data1").getRowNumbers())
+
+5
+00:00:11,634 --> 00:00:11,682
+17. for ([rowNum = 1, rowNum <= findTestData("data1").getRowNumbers(), (rowNum++)])
+
+6
+00:00:11,682 --> 00:00:12,826
+1. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, rowNum))
+
+7
+00:00:12,826 --> 00:00:13,754
+5. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, rowNum))
+
+8
+00:00:13,755 --> 00:00:15,801
+9. Thread.sleep(2000)
+
+9
+00:00:15,802 --> 00:00:16,512
+1. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, rowNum))
+
+10
+00:00:16,512 --> 00:00:17,314
+5. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, rowNum))
+
+11
+00:00:17,314 --> 00:00:19,347
+9. Thread.sleep(2000)
+
+12
+00:00:19,347 --> 00:00:19,854
+21. click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login"))
+
+13
+00:00:19,854 --> 00:00:21,857
+25. Thread.sleep(2000)
+
+14
+00:00:21,857 --> 00:00:22,527
+29. closeBrowser()
+

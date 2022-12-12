@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_Helping users connect to EVM powered ne_c0ccb4</name>
+   <tag></tag>
+   <elementGuidId>36ff69c3-0f1d-4be7-ae6a-2aebe26df3bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Helping users connect to EVM powered networks'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.MuiSvgIcon-root</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>ef3237c9-638f-4ab2-bdbf-737eca09d9ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSvgIcon-root</value>
+      <webElementGuid>ce274de2-f136-4ef3-a5a8-5a37ab6ed9bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d0c63f73-4bbf-4307-aef0-dd212fa93430</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>bc35b733-e6d9-4309-b314-c78394e4a66a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e4e8c710-a233-4cf8-a76f-06a7df2470c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;Home_container__bCOhY&quot;]/main[@class=&quot;Home_main__nLjiQ&quot;]/div[@class=&quot;Layout_container__CSAqU&quot;]/div[@class=&quot;Layout_copyContainer__WE9tO&quot;]/div[@class=&quot;Layout_copyCentered__K9wJ3&quot;]/a[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained Layout_addNetworkButton__MNzOy MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge&quot;]/span[@class=&quot;MuiButton-label&quot;]/span[@class=&quot;MuiButton-endIcon MuiButton-iconSizeLarge&quot;]/svg[@class=&quot;MuiSvgIcon-root&quot;]</value>
+      <webElementGuid>13f0b401-24bf-47c3-9e7a-3af57918f32e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Helping users connect to EVM powered networks'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>e8451f98-62bb-499b-82c5-6b57008a021c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::*[name()='svg'][4]</value>
+      <webElementGuid>72b36b9a-1fe3-4d68-837f-c879a19ebc7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testnets'])[1]/preceding::*[name()='svg'][4]</value>
+      <webElementGuid>cb878dbf-9c2d-42f8-b61b-e193be49c4af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

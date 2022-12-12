@@ -1,0 +1,16 @@
+1
+00:00:00,001 --> 00:00:00,002
+1. name = "Automation"
+
+2
+00:00:00,002 --> 00:00:01,833
+5. openBrowser("")
+
+3
+00:00:01,833 --> 00:00:05,913
+9. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:05,914 --> 00:00:05,956
+13. for ([rowNum = 1, rowNum <= findTestData("data1"), (rowNum++)])
+

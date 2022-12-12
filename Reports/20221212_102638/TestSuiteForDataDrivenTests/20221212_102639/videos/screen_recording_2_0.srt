@@ -1,0 +1,24 @@
+1
+00:00:00,001 --> 00:00:00,002
+1. name = "Automation"
+
+2
+00:00:00,003 --> 00:00:01,831
+5. openBrowser("")
+
+3
+00:00:01,831 --> 00:00:07,715
+9. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:07,715 --> 00:00:09,375
+13. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), username)
+
+5
+00:00:09,376 --> 00:00:10,174
+17. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), password)
+
+6
+00:00:10,175 --> 00:00:10,537
+21. click(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login"))
+

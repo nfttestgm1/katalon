@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Password_metamask</name>
+   <tag></tag>
+   <elementGuidId>de41f1f1-308a-479e-bb34-62204743eba8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>06956d6b-1067-4396-9b0f-3b3c6fbec239</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex gap-2 items-center bg-[#DEDEDE] rounded-[10px] py-[8px] px-8 font-medium text-black</value>
+      <webElementGuid>11febdfb-2b21-40ee-9035-747313d9272a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Connect Wallet</value>
+      <webElementGuid>ee02878b-8921-4f9d-8afe-46e9d159df40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;grid grid-cols-1 lg:grid-cols-[40vw,_auto]&quot;]/div[@class=&quot;bg-[#f3f3f3] p-5 relative flex flex-col gap-5&quot;]/div[@class=&quot;sticky top-0 z-50 rounded-[10px] bg-[#f3f3f3] p-5 -m-5&quot;]/header[@class=&quot;flex items-end gap-2 w-full sticky top-4 shadow rounded-[10px] z-50&quot;]/div[@class=&quot;flex flex-col bg-white rounded-[10px] flex-1&quot;]/div[@class=&quot;py-2 px-3 flex items-center justify-between gap-4&quot;]/button[@class=&quot;flex gap-2 items-center bg-[#DEDEDE] rounded-[10px] py-[8px] px-8 font-medium text-black&quot;]</value>
+      <webElementGuid>ddf74d33-35ef-40f1-ae72-1a7720982d97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//input[@id='password']</value>
+      <webElementGuid>44fc7056-2dd1-45e8-b60b-97c2d6b00daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Include Testnets'])[1]/following::button[1]</value>
+      <webElementGuid>2e11e135-fca3-4a87-8714-fb7579c24a57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Networks'])[1]/following::button[1]</value>
+      <webElementGuid>f00419c5-2e1d-4e14-9a47-ee76dff4ba20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ethereum Mainnet'])[1]/preceding::button[1]</value>
+      <webElementGuid>8b7ff344-bc90-486c-8a7d-9e74749ce3bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ChainID'])[1]/preceding::button[1]</value>
+      <webElementGuid>571ac734-f460-4f48-a1eb-a9cde23f8563</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Connect Wallet']/parent::*</value>
+      <webElementGuid>cd7ef312-6904-46f7-ac2f-b7aec00ba7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>84b427d0-70db-4c17-93c3-dc7444d7a61f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Connect Wallet' or . = 'Connect Wallet')]</value>
+      <webElementGuid>ff23c41f-d176-42c6-b233-3e9d37b962ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:00,001
+1. name = "Automation"
+
+2
+00:00:00,001 --> 00:00:01,166
+5. openBrowser("")
+
+3
+00:00:01,166 --> 00:00:14,454
+9. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:14,455 --> 00:00:14,479
+13. for ([rowNum = 1, rowNum <= findTestData("data1").getRowNumbers(), (rowNum++)])
+
+5
+00:00:14,479 --> 00:00:16,473
+1. clearText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"))
+
+6
+00:00:16,473 --> 00:00:18,478
+5. Thread.sleep(2000)
+
+7
+00:00:18,478 --> 00:00:19,269
+9. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, rowNum))
+
+8
+00:00:19,271 --> 00:00:21,274
+13. Thread.sleep(2000)
+
+9
+00:00:21,274 --> 00:00:21,731
+17. clearText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"))
+
+10
+00:00:21,732 --> 00:00:23,739
+21. Thread.sleep(2000)
+
+11
+00:00:23,739 --> 00:00:24,541
+25. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, rowNum))
+
+12
+00:00:24,542 --> 00:00:24,881
+1. clearText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"))
+
+13
+00:00:24,881 --> 00:00:26,897
+5. Thread.sleep(2000)
+
+14
+00:00:26,898 --> 00:00:27,795
+9. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"), findTestData("data1").getValue(1, rowNum))
+
+15
+00:00:27,795 --> 00:00:29,808
+13. Thread.sleep(2000)
+
+16
+00:00:29,809 --> 00:00:30,288
+17. clearText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username"))
+
+17
+00:00:30,288 --> 00:00:32,297
+21. Thread.sleep(2000)
+
+18
+00:00:32,298 --> 00:00:32,595
+25. setText(findTestObject("Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password"), findTestData("data1").getValue(2, rowNum))
+
