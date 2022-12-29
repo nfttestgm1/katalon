@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.doubleClick(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/p_Username  Admin'))
+WebUI.doubleClick(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/p_Username  Admin'))
 
-WebUI.setText(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Username_username'), 
+WebUI.setText(findTestObject('null'), 
     'Admin')
 
-WebUI.doubleClick(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/p_Password  admin123'))
+WebUI.doubleClick(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/p_Password  admin123'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('null'), 
     'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/button_Login'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Admin'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Admin'))
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Leave'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Leave'))
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Time'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Time'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Profile Cover</name>
+   <tag></tag>
+   <elementGuidId>7317e448-fd85-4f0f-b2ba-1a740dc164dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Profile Cover')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>95e9be3e-012a-44fa-936d-52edda442427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-b2d39g</value>
+      <webElementGuid>2c91d1f4-abd8-4278-9c56-b0375d4eca48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Profile Cover</value>
+      <webElementGuid>85ec06b7-4bf7-442a-8ba5-810b4a9e9cc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-:r39:--tabpanel-0&quot;)/div[@class=&quot;mkp-style-j7qwjs&quot;]/div[@class=&quot;mkp-style-1ufmpwf&quot;]/div[@class=&quot;mkp-style-12r0lho&quot;]/div[@class=&quot;mkp-style-xtgqfw&quot;]/div[@class=&quot;mkp-style-b2d39g&quot;]</value>
+      <webElementGuid>fae6e020-00e9-4212-bf18-40b2f2afb7ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-:r39:--tabpanel-0']/div[2]/div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>dfa2dd6d-702e-4dbc-b121-955b03c1106f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile Avatar'])[1]/following::div[3]</value>
+      <webElementGuid>b8a68fd9-3001-4f45-a903-2754a2cdc3ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::div[6]</value>
+      <webElementGuid>b80fa8e6-8778-4bcf-ae50-c6362aae4bd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Our ecosystem'])[1]/preceding::div[8]</value>
+      <webElementGuid>55c4863b-f36c-4a48-a768-fb110bffa303</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YoVerse Wallet'])[1]/preceding::div[9]</value>
+      <webElementGuid>013be583-7e13-4592-bac8-e437578e6c78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Profile Cover']/parent::*</value>
+      <webElementGuid>4402791a-cb21-40b4-899d-08e3ee213aa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div[2]/div</value>
+      <webElementGuid>b210db7f-2ae9-4705-a4ef-ac7c5361082f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Profile Cover' or . = 'Profile Cover')]</value>
+      <webElementGuid>979f8c63-d602-46cd-b5f1-08d4cbce1b7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

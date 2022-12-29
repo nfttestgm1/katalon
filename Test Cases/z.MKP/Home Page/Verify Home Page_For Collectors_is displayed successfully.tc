@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Home Page_For Collectors_is displayed successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95397051-e54b-40ac-82b2-edc6eaa3074f</testCaseGuid>
+</TestCaseEntity>

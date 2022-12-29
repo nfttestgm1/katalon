@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_timed-auction-duration</name>
+   <tag></tag>
+   <elementGuidId>7b0f2337-6fdb-411d-a675-319594af5013</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='timed-auction-duration']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mkp-style-1dgpvj2</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'DurationPriceSTAR55.00 STARPrivate ListingWhen you turn on this, you create a list of users. Only person in your list can purchase this item. Press Manage member button to add people by their wallet address or username.FeesPlatform fee0%Receivable55.00 STARPlace on marketCancel' or . = 'DurationPriceSTAR55.00 STARPrivate ListingWhen you turn on this, you create a list of users. Only person in your list can purchase this item. Press Manage member button to add people by their wallet address or username.FeesPlatform fee0%Receivable55.00 STARPlace on marketCancel')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1d174c73-19fe-4bef-9ba1-af5679d37278</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-1dgpvj2</value>
+      <webElementGuid>dc2287b8-d3f7-48e1-9da1-a7b4ae897fca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DurationPriceSTAR55.00 STARPrivate ListingWhen you turn on this, you create a list of users. Only person in your list can purchase this item. Press Manage member button to add people by their wallet address or username.FeesPlatform fee0%Receivable55.00 STARPlace on marketCancel</value>
+      <webElementGuid>77f462c3-2411-4e31-9e6b-db45ff8852c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_9c9965 font-sans&quot;]/div[@class=&quot;mkp-style-0&quot;]/div[@class=&quot;mkp-style-1gaga0y&quot;]/div[@class=&quot;mkp-style-i9gxme&quot;]/div[@class=&quot;mkp-style-vooagt&quot;]/div[@class=&quot;mkp-style-6s1c6m&quot;]/div[@class=&quot;mkp-style-1r91zvi&quot;]/div[@class=&quot;chakra-stack mkp-style-lhu4x5&quot;]/div[@class=&quot;mkp-style-3yrk1f&quot;]/div[@class=&quot;mkp-style-anke3t&quot;]/div[@class=&quot;mkp-style-5u84wp&quot;]/div[@class=&quot;mkp-style-1dgpvj2&quot;]</value>
+      <webElementGuid>cac7a533-acdc-4926-875a-2a494cd00aab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/div/div/div[3]/div/div/div/div/div/div[2]/div[2]/div</value>
+      <webElementGuid>aadb1734-f67a-4b63-9ac4-248e14ad9940</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ends in'])[1]/following::div[3]</value>
+      <webElementGuid>55f2ee54-b9bd-4c1a-8a91-036c9da77c56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::div[6]</value>
+      <webElementGuid>dacb3433-5804-4a54-bca4-78fa25a11322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>d22aac98-b2ce-4655-b1c8-f53682af9c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DurationPriceSTAR55.00 STARPrivate ListingWhen you turn on this, you create a list of users. Only person in your list can purchase this item. Press Manage member button to add people by their wallet address or username.FeesPlatform fee0%Receivable55.00 STARPlace on marketCancel' or . = 'DurationPriceSTAR55.00 STARPrivate ListingWhen you turn on this, you create a list of users. Only person in your list can purchase this item. Press Manage member button to add people by their wallet address or username.FeesPlatform fee0%Receivable55.00 STARPlace on marketCancel')]</value>
+      <webElementGuid>75ce6bb1-b0cb-4098-94d8-38597344b0e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

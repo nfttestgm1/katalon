@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Trending</name>
+   <tag></tag>
+   <elementGuidId>5ea8c191-aa2f-4f92-ab1a-586595301660</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Trending')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1ydbmyj > div.css-1lekzkb > div.css-1ucb5n4 > div.css-1j8ik1k</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Trending' or . = 'Trending')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cbaaaf8a-cde2-43ac-9e8a-ace1b0fd801f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1j8ik1k</value>
+      <webElementGuid>64fabc84-2b91-4711-8180-b40b2cd4424f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Trending</value>
+      <webElementGuid>6dbef7ca-e209-4b4f-88d4-a3d837cb2a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-0&quot;]/div[@class=&quot;css-1gaga0y&quot;]/div[@class=&quot;css-i9gxme&quot;]/div[@class=&quot;css-vooagt&quot;]/main[@class=&quot;__variable_9c9965 font-sans&quot;]/div[@class=&quot;css-6s1c6m&quot;]/div[@class=&quot;css-1pf0x3y&quot;]/div[@class=&quot;css-1cy1ij4&quot;]/div[@class=&quot;css-31hcjg&quot;]/div[@class=&quot;css-1ydbmyj&quot;]/div[@class=&quot;css-1lekzkb&quot;]/div[@class=&quot;css-1ucb5n4&quot;]/div[@class=&quot;css-1j8ik1k&quot;]</value>
+      <webElementGuid>8a67592b-8060-4b2e-bba0-09c2792132b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/div/main/div/div[2]/div[3]/div[2]/div/div/div/div</value>
+      <webElementGuid>de0401e6-e454-453e-bb38-f1c38925d35b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Volume'])[10]/following::div[8]</value>
+      <webElementGuid>e8774f40-0710-4774-867b-346dda2c01fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Floor Price'])[10]/following::div[11]</value>
+      <webElementGuid>7db24e9b-6b5f-4bc7-9425-e911bc6cee65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/preceding::div[4]</value>
+      <webElementGuid>7e99dfd0-0c34-477f-aefd-e5bbb94c04aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div[2]/div/div/div/div</value>
+      <webElementGuid>d91e89df-63e8-40a0-be59-f24a6d6346bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Trending' or . = 'Trending')]</value>
+      <webElementGuid>8c00173e-7e4e-4d74-af42-689c703804dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

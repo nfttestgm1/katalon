@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FAQ</name>
+   <tag></tag>
+   <elementGuidId>7d13ef48-f310-4fdd-8198-ee9c6b79de4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='FAQ']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-9xcoxy > div.css-1lekzkb > div.css-1ucb5n4 > div.css-1j8ik1k > div.css-197pcms</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'FAQ' or . = 'FAQ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5bb9c2b3-2cf0-4709-8321-56bc1283834e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-197pcms</value>
+      <webElementGuid>afef5635-6237-4341-a7b1-5fdd6a6d4ea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FAQ</value>
+      <webElementGuid>88ff29ee-3088-4ddb-99f7-512c818fb0c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-0&quot;]/div[@class=&quot;css-1gaga0y&quot;]/div[@class=&quot;css-i9gxme&quot;]/div[@class=&quot;css-vooagt&quot;]/main[@class=&quot;__variable_9c9965 font-sans&quot;]/div[@class=&quot;css-6s1c6m&quot;]/div[@class=&quot;css-1pf0x3y&quot;]/div[@class=&quot;css-1r8hxnm&quot;]/div[@class=&quot;css-9xcoxy&quot;]/div[@class=&quot;css-1lekzkb&quot;]/div[@class=&quot;css-1ucb5n4&quot;]/div[@class=&quot;css-1j8ik1k&quot;]/div[@class=&quot;css-197pcms&quot;]</value>
+      <webElementGuid>7f52906d-d3eb-42e4-b352-4aac75958c48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div[3]/div/main/div/div[2]/div[5]/div/div/div/div/div[2]</value>
+      <webElementGuid>44c93967-e7ba-42c1-bf7c-d5c5c0f19a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Floor Price'])[11]/following::div[231]</value>
+      <webElementGuid>259efb4c-9058-45a7-807b-7f783bc4c50a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items'])[1]/following::div[233]</value>
+      <webElementGuid>dc32c71d-7b9e-4d2e-b6a7-ef181a9cd2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore More'])[6]/preceding::div[2]</value>
+      <webElementGuid>189c7e99-2ffd-4252-8154-330a2c996ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What is an NFT?'])[1]/preceding::div[5]</value>
+      <webElementGuid>50971fa2-2e07-425b-a692-44f2e7a20a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FAQ']/parent::*</value>
+      <webElementGuid>2c794aac-3ac3-4780-982e-4401ce51732f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div[2]</value>
+      <webElementGuid>29e0d055-a0f0-4e08-8ac8-323809769dcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FAQ' or . = 'FAQ')]</value>
+      <webElementGuid>c289dc5d-4c27-4aaf-80c6-e1ce0525225d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_On Market</name>
+   <tag></tag>
+   <elementGuidId>4bfd5726-6eda-4228-938f-2ca42d2b676e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#tab-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='On Market']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7aa99f50-dae9-4b16-a2c8-269f2c95ad58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tab-0</value>
+      <webElementGuid>785a474f-088e-470a-8f79-13c699b8f1b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-0</value>
+      <webElementGuid>1d2ad4ca-54c5-4cea-b897-35d8b13d1dfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>On Market</value>
+      <webElementGuid>32090eb5-914b-4466-84b7-1f3b5afbecf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tab-0&quot;)</value>
+      <webElementGuid>796d5f19-076a-4720-890f-1484eb9a74ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='tab-0']</value>
+      <webElementGuid>6ec6d8a7-1fe4-4f8d-b6e4-d6dac128ac72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='tabs-:r48:--tab-0']/div</value>
+      <webElementGuid>4939953e-0885-40b5-9d29-d5b4366d7a8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore'])[1]/following::div[30]</value>
+      <webElementGuid>0b916701-53ee-4271-9fec-caa3e93280e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Owned'])[1]/preceding::div[1]</value>
+      <webElementGuid>13a4b093-ca6e-4c74-a272-15ccdf93a495</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bids'])[1]/preceding::div[2]</value>
+      <webElementGuid>b388394b-011f-4f56-a91b-87555f963bc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='On Market']/parent::*</value>
+      <webElementGuid>7f90cf21-84a2-4179-90a1-bb3183211df1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button/div</value>
+      <webElementGuid>e4ff5790-002a-4edd-8a59-8e1bb36f8901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'tab-0' and (text() = 'On Market' or . = 'On Market')]</value>
+      <webElementGuid>4976c949-ee4a-417d-ace5-3ea83283fdad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

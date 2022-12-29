@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test3_WriteDataToExcel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52b2b24c-1b7e-46e8-bf1e-22486de6bb77</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>08ae9dc5-638e-48cb-a0e7-2c4848bca7e1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData2_Metamask</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>bf9e3fa5-cffb-408f-9d43-27eaa161bb3a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestData1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>bf9e3fa5-cffb-408f-9d43-27eaa161bb3a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>user</value>
+      <variableId>bb581060-7246-4edc-b51b-1c9a21da5258</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb581060-7246-4edc-b51b-1c9a21da5258</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+</TestCaseEntity>

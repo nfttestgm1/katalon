@@ -17,27 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('LoginTest/Test1_LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.LoginTest/Test1_LoginTest'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Admin'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Admin'))
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Leave'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Leave'))
 
-WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/span_Time'))
+WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/span_Time'))
 
 WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/a_My Info'))
 
-WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Employee Id'), 
+WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/input_Employee Id'), 
     Keys.chord(Keys.CONTROL, 'a'))
 
 Thread.sleep(2000)
 
-WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Employee Id'), 
+WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/input_Employee Id'), 
     Keys.chord(Keys.CONTROL, 'c'))
 
 Thread.sleep(2000)
 
-WebUI.sendKeys(findTestObject('RecordOnExistingBrowser/OpenChainlist/Page_OrangeHRM/Page_OrangeHRM/input_Other Id'), Keys.chord(
+WebUI.sendKeys(findTestObject('RecordOnExistingBrowser/Page_OrangeHRM/input_Other Id'), Keys.chord(
         Keys.CONTROL, 'v'))
 
 Thread.sleep(2000)

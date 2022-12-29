@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_MetaMask</name>
+   <tag></tag>
+   <elementGuidId>e0db5d68-087b-48cc-8123-868c98398cb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-29427738-0.sc-630fc9ab-0.sc-99655001-0.sc-4422a702-0.sc-a8df1259-1.iihyIq.jSPhMX.kKyBpy.fYgjHJ.dNyhhk</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div/div/div/div[2]/ul/li/button/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b2e83c5-d033-415a-a017-f9b2fcfd3d73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 sc-a8df1259-1 iihyIq jSPhMX kKyBpy fYgjHJ dNyhhk</value>
+      <webElementGuid>a1ddc32f-b9cf-4e6f-92c0-2511760ae770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MetaMask</value>
+      <webElementGuid>afa1c498-38bd-4bb1-8f70-cfede494c2c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 jnYoOp jSPhMX kKyBpy&quot;]/div[@class=&quot;sc-29427738-0 jibqaK&quot;]/div[@class=&quot;sc-29427738-0 sc-e5f2cb57-0 dVNeWL gKpzG&quot;]/div[@class=&quot;sc-29427738-0 ezQIro&quot;]/ul[@class=&quot;sc-29427738-0 sc-808435c9-0 dVNeWL ilahZE ConnectCompatibleWallet--wallet-list&quot;]/li[@class=&quot;sc-d8be1725-0 eavGfL&quot;]/button[@class=&quot;sc-b267fe84-0 cRVARX sc-29427738-0 sc-630fc9ab-0 sc-a8df1259-0 bBUaNU jSPhMX egqDTp&quot;]/div[@class=&quot;sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 sc-4422a702-0 sc-a8df1259-1 iihyIq jSPhMX kKyBpy fYgjHJ dNyhhk&quot;]</value>
+      <webElementGuid>b83e770f-d6ab-4c00-8eb7-21463db64043</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/div/div[2]/ul/li/button/div[2]</value>
+      <webElementGuid>94c12cd7-b82e-42b1-8345-df67b60f25b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='wallet'])[1]/following::div[3]</value>
+      <webElementGuid>f6c108c4-c30e-4ae5-a007-f983c9979b1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Popular'])[1]/preceding::div[1]</value>
+      <webElementGuid>fce9eb95-a234-4754-9276-627c7e0fb24a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div[2]</value>
+      <webElementGuid>234d9405-52df-48bc-a3ad-579fe384cc5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MetaMask' or . = 'MetaMask')]</value>
+      <webElementGuid>9d37b799-e1e9-438d-90fb-76c9d6eda451</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

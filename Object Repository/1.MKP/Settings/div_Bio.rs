@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Bio</name>
+   <tag></tag>
+   <elementGuidId>e077d5a0-42a2-4355-b564-29531e591eb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.chakra-form-control.mkp-style-1kxonj9 > div.chakra-stack.mkp-style-1ugdy5e > div.mkp-style-b2d39g</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Bio')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>39c57fd3-4f84-4c9f-b4f1-9f75ea72f314</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-b2d39g</value>
+      <webElementGuid>8338c832-a8c6-4f53-aa31-226264620c38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bio</value>
+      <webElementGuid>18c2f937-ab11-4b0d-bea5-645f842619ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-:r39:--tabpanel-0&quot;)/div[@class=&quot;mkp-style-j7qwjs&quot;]/div[@class=&quot;mkp-style-1ufmpwf&quot;]/div[@class=&quot;mkp-style-1jvopm1&quot;]/div[@class=&quot;chakra-stack mkp-style-tncdwt&quot;]/div[@class=&quot;chakra-form-control mkp-style-1kxonj9&quot;]/div[@class=&quot;chakra-stack mkp-style-1ugdy5e&quot;]/div[@class=&quot;mkp-style-b2d39g&quot;]</value>
+      <webElementGuid>58e2eb5c-29e4-495f-ac2c-ae7509189be5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-:r39:--tabpanel-0']/div[2]/div[2]/div/div/div[3]/div/div</value>
+      <webElementGuid>093da54b-a385-4ac5-b8ba-4f09c979ca72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::div[6]</value>
+      <webElementGuid>20203ffe-8c85-4a1d-a3ac-caebf1c1fd68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::div[11]</value>
+      <webElementGuid>f7a933af-b349-47e5-8853-9b130df6a0f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal site'])[1]/preceding::div[2]</value>
+      <webElementGuid>80ff630a-8841-4626-b0b7-9f1ff87ea197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wallet address'])[1]/preceding::div[5]</value>
+      <webElementGuid>400f872f-8e51-4738-852b-e8ba7eadb75c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bio']/parent::*</value>
+      <webElementGuid>749d97b6-80c2-40f6-8c09-b3b1fc681bb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/div</value>
+      <webElementGuid>a79645e5-07b2-4997-8ac5-d994c738dad2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bio' or . = 'Bio')]</value>
+      <webElementGuid>0fc1eadc-f6b4-47a9-99a8-6f6f47403967</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

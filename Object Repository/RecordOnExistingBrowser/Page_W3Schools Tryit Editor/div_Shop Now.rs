@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Shop Now</name>
+   <tag></tag>
+   <elementGuidId>8cfb9649-e014-4e16-8343-70d8fbe25197</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ns-3uu7l-e-11.button-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='banner-nologo']/div/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8f73c172-bd0e-4c44-a921-f3c9e7e57779</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ns-3uu7l-e-11 button-container</value>
+      <webElementGuid>362c0cf1-bc08-4cf6-8441-7cac4de65d46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shop Now</value>
+      <webElementGuid>ca47293e-6b5c-4700-a317-bf54ad69b9b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;banner-nologo&quot;)/div[@class=&quot;ns-3uu7l-e-1 row-container canvas&quot;]/a[@class=&quot;ns-3uu7l-e-10 clickable&quot;]/div[@class=&quot;ns-3uu7l-e-11 button-container&quot;]</value>
+      <webElementGuid>9d0d7251-a860-4b35-a814-47f745def4d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='banner-nologo']/div/a/div</value>
+      <webElementGuid>e2e90025-2dba-45c4-a5ef-f168cfba8edb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get your idea online.'])[1]/following::div[2]</value>
+      <webElementGuid>76aeb137-14f0-4c2f-a941-73f0874b42fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='godaddy.com'])[1]/following::div[3]</value>
+      <webElementGuid>7dcda814-c7e0-41cc-abd4-eb9266275481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ad served by'])[1]/preceding::div[7]</value>
+      <webElementGuid>cc71048e-c03d-4a41-a1f8-2a29aa97dfca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>12a56c0e-2d3b-4f9d-9233-79a6df87b94c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Shop Now' or . = 'Shop Now')]</value>
+      <webElementGuid>c996447e-7a35-411d-a049-235788263c97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

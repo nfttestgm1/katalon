@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite3_Listeners,Chrome 108.0.0.0,,,2022-12-14 11:11:01,2022-12-14 11:11:15,13.957s,PASSED
+,,,,,,,
+Test Cases/1.LoginTest/Test1_LoginTest,Chrome 108.0.0.0,,,2022-12-14 11:11:01,2022-12-14 11:11:15,13.442s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2022-12-14 11:11:01,2022-12-14 11:11:01,0.003s,PASSED
+Start setup action : setupTestCase,Chrome 108.0.0.0,,,2022-12-14 11:11:01,2022-12-14 11:11:01,0.004s,PASSED
+"println(""... I am inside Test1_LoginTest function"")",Chrome 108.0.0.0,,,2022-12-14 11:11:02,2022-12-14 11:11:02,0.001s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-14 11:11:02,2022-12-14 11:11:04,2.104s,PASSED
+navigateToUrl(Url),Chrome 108.0.0.0,,,2022-12-14 11:11:04,2022-12-14 11:11:12,8.584s,PASSED
+"setText(findTestObject(""RecordOnExistingBrowser/Page_OrangeHRM/input_Username_username""), Username)",Chrome 108.0.0.0,,,2022-12-14 11:11:12,2022-12-14 11:11:14,1.518s,PASSED
+"setEncryptedText(findTestObject(""RecordOnExistingBrowser/Page_OrangeHRM/input_Password_password""), EncryptedPassword)",Chrome 108.0.0.0,,,2022-12-14 11:11:14,2022-12-14 11:11:14,0.477s,PASSED
+"click(findTestObject(""RecordOnExistingBrowser/Page_OrangeHRM/button_Login""))",Chrome 108.0.0.0,,,2022-12-14 11:11:14,2022-12-14 11:11:15,0.451s,PASSED
+Start tear down : tearDownTestCase,Chrome 108.0.0.0,,,2022-12-14 11:11:15,2022-12-14 11:11:15,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2022-12-14 11:11:15,2022-12-14 11:11:15,0.002s,PASSED

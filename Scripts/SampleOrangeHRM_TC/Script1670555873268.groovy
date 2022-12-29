@@ -21,17 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.setText(findTestObject('Test1_OR/Page_OrangeHRM/input_Username_username'), GlobalVariable.Username)
+WebUI.setText(findTestObject('null'), GlobalVariable.Username)
 
-not_run: WebUI.setText(findTestObject('Test1_OR/Page_OrangeHRM/input_Password_password'), GlobalVariable.Password)
+not_run: WebUI.setText(findTestObject('null'), GlobalVariable.Password)
 
-WebUI.setEncryptedText(findTestObject('Test1_OR/Page_OrangeHRM/input_Password_password'), GlobalVariable.EncryptedPassword)
+WebUI.setEncryptedText(findTestObject('null'), GlobalVariable.EncryptedPassword)
 
 WebUI.click(findTestObject('Test1_OR/Page_OrangeHRM/button_Login'))
 
 WebUI.click(findTestObject('Test1_OR/Page_OrangeHRM/a_Time'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Test1_OR/Page_OrangeHRM/h6_Select Employee'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/RecordOnExistingBrowser/Page_OrangeHRM/h6_Select Employee'), 0)
 
 WebUI.verifyTextPresent('Select Employee', true)
 

@@ -24,4 +24,9 @@
       <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
       <name>EncryptedPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://market.test.yoverse.io'</initValue>
+      <name>MKP_url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

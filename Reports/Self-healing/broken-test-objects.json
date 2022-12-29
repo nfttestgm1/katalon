@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RecordOnExistingBrowser/Page_W3Schools Tryit Editor/button_Try it",
+      "brokenLocator": "//iframe[@id\u003d\u0027iframeResult\u0027]//button[@onclick\u003d\u0027myFunction()\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@onclick\u003d\u0027myFunction()\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RecordOnExistingBrowser/Page_W3Schools Tryit Editor/button_Try it_attributes.png"
+    }
+  ]
 }

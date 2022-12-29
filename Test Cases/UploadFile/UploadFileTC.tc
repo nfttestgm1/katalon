@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UploadFileTC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>279363ee-cfce-4b51-a322-26227dc107eb</testCaseGuid>
+   <variable>
+      <defaultValue>'C:/Users/LAP15239-local/Downloads/test1.png'</defaultValue>
+      <description></description>
+      <id>832093a2-d7de-4c04-9a89-ba9fbb1e2050</id>
+      <masked>false</masked>
+      <name>fileToUpload</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\\\Users\\\\LAP15239-local\\\\Downloads\\\\test1.png'</defaultValue>
+      <description></description>
+      <id>408ceabd-6d4b-4a0b-aa81-29efc359fa6e</id>
+      <masked>false</masked>
+      <name>fileToUpload_otherPath</name>
+   </variable>
+</TestCaseEntity>

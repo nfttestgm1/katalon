@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sale Type</name>
+   <tag></tag>
+   <elementGuidId>b5b41448-f305-41f6-9722-9d9b1548112c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mkp-style-ag1a9c</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='Sale Type']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bafe2561-3658-4eff-9e0f-633212802dc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-ag1a9c</value>
+      <webElementGuid>82f5192b-6a1d-461e-9a43-8987b96db37d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sale Type</value>
+      <webElementGuid>c58a4886-cb45-4c1f-8d65-55510489b209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordion-button-:r4n:&quot;)/div[@class=&quot;mkp-style-ag1a9c&quot;]</value>
+      <webElementGuid>4547800e-72c2-43d9-b615-47759ff8310a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='accordion-button-:r4n:']/div</value>
+      <webElementGuid>1481b96a-a215-46f5-888e-55373a1673d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filters'])[1]/following::div[6]</value>
+      <webElementGuid>7810194c-ece5-4073-85be-aec4cc07cf75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Private'])[1]/following::div[11]</value>
+      <webElementGuid>7bfe7d6b-20b5-4159-99a6-596b47332fba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On Sale'])[1]/preceding::div[1]</value>
+      <webElementGuid>d99ce8bd-2024-4a38-9b06-1a3d2b0dcb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On Auction'])[1]/preceding::div[2]</value>
+      <webElementGuid>6841e496-598d-4a52-ad3e-1ef387606ab0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sale Type']/parent::*</value>
+      <webElementGuid>7ed74b97-3f5c-4bea-bd85-aa115d0041f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button/div</value>
+      <webElementGuid>119b295a-2e63-4312-8ad9-4c5369c03f62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sale Type' or . = 'Sale Type')]</value>
+      <webElementGuid>7b6b224b-9425-41de-85b9-900bd8f47c94</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

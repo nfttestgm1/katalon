@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Home Page_For Creators_is displayed successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc12648c-de46-4fee-a5a2-1031de51677e</testCaseGuid>
+</TestCaseEntity>

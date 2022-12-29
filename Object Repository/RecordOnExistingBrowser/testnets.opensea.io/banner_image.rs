@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>banner_image</name>
+   <tag></tag>
+   <elementGuidId>e97c7d10-c0f8-4645-ab0a-f6b70ffa43c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section.CollectionManager--main</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='bannerImage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>be087491-55a3-4a0c-a8eb-127aa9518d2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CollectionManager--main</value>
+      <webElementGuid>98754915-34b1-45a9-a46c-1f909d909c69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Collectionschevron_rightCreate a Collec...Create a Collection*Required fieldsLogo imageThis image will also be used for navigation. 350 x 350 recommended.imageFeatured imageThis image will be used for featuring your collection on the homepage, category pages, or other promotional areas of OpenSea. 600 x 400 recommended.closeimageBanner imageThis image will appear at the top of your collection page. Avoid including too much text in this banner image, as the dimensions change on different devices. 1400 x 350 recommended.closeimageNameURLCustomize your URL on OpenSea. Must only contain lowercase letters, numbers, and hyphens.https://opensea.io/collection/DescriptionMarkdown syntax is supported. 0 of 1000 characters used.CategoryAdding a category will help make your item discoverable on OpenSea.Add categoryinfoNew categories and tags coming soonThe category selection above will be going away soon. The category you choose below will appear on your collection and item pages. Categories and tags will also appear in other places throughout OpenSea soon. Select or confirm the category and tags for your collection. Learn moreSelect a categorykeyboard_arrow_downYou can review and change your category and tags at any time. Don't see the right category? Send us feedbackLinkshttps://www.medium.com/@https://t.me/Creator fees Learn moreCollection owners can collect a fee when a user re-sells an item they created. Contact the collection owner to change the fee percentage or the payout address.Add addressBlockchainSelect the blockchain where you'd like new items from this collection to be added by default.infokeyboard_arrow_downPayment tokensThese tokens can be used to buy and sell your items.ETHGoerliWETHGoerlikeyboard_arrow_downDisplay themeChange how your items are shown.PaddedRecommended for assets with transparent backgroundContainedRecommended for assets that are not a 1:1 ratiocheckCoveredRecommended for assets that can extend to the edgeExplicit &amp; sensitive contentSet this collection as explicit and sensitive contentinfoShow OpenRarity ranking Learn moreTurn on after all items revealed and attribute metadata is finalized.Create</value>
+      <webElementGuid>6f951261-4c36-4f03-9843-1a867f8f7e8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;sc-29427738-0 sc-630fc9ab-0 sc-99655001-0 jnYoOp jSPhMX kKyBpy&quot;]/div[@class=&quot;sc-e1c604fc-0 sNfQH&quot;]/section[@class=&quot;CollectionManager--main&quot;]</value>
+      <webElementGuid>0b5ef29f-de77-48b6-b94e-e068633d2f22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div/div/section</value>
+      <webElementGuid>0af06187-ddf2-4167-85ba-5d13bd19543f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shopping_cart'])[1]/following::section[1]</value>
+      <webElementGuid>a2322b8f-4307-4006-aae1-088b651fc3bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='account_balance_wallet'])[1]/following::section[1]</value>
+      <webElementGuid>ce185880-d7d7-489d-9235-87e05286f1a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section</value>
+      <webElementGuid>98c4b2d6-5542-4085-a185-86ad46fc1818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = concat(&quot;My Collectionschevron_rightCreate a Collec...Create a Collection*Required fieldsLogo imageThis image will also be used for navigation. 350 x 350 recommended.imageFeatured imageThis image will be used for featuring your collection on the homepage, category pages, or other promotional areas of OpenSea. 600 x 400 recommended.closeimageBanner imageThis image will appear at the top of your collection page. Avoid including too much text in this banner image, as the dimensions change on different devices. 1400 x 350 recommended.closeimageNameURLCustomize your URL on OpenSea. Must only contain lowercase letters, numbers, and hyphens.https://opensea.io/collection/DescriptionMarkdown syntax is supported. 0 of 1000 characters used.CategoryAdding a category will help make your item discoverable on OpenSea.Add categoryinfoNew categories and tags coming soonThe category selection above will be going away soon. The category you choose below will appear on your collection and item pages. Categories and tags will also appear in other places throughout OpenSea soon. Select or confirm the category and tags for your collection. Learn moreSelect a categorykeyboard_arrow_downYou can review and change your category and tags at any time. Don&quot; , &quot;'&quot; , &quot;t see the right category? Send us feedbackLinkshttps://www.medium.com/@https://t.me/Creator fees Learn moreCollection owners can collect a fee when a user re-sells an item they created. Contact the collection owner to change the fee percentage or the payout address.Add addressBlockchainSelect the blockchain where you&quot; , &quot;'&quot; , &quot;d like new items from this collection to be added by default.infokeyboard_arrow_downPayment tokensThese tokens can be used to buy and sell your items.ETHGoerliWETHGoerlikeyboard_arrow_downDisplay themeChange how your items are shown.PaddedRecommended for assets with transparent backgroundContainedRecommended for assets that are not a 1:1 ratiocheckCoveredRecommended for assets that can extend to the edgeExplicit &amp; sensitive contentSet this collection as explicit and sensitive contentinfoShow OpenRarity ranking Learn moreTurn on after all items revealed and attribute metadata is finalized.Create&quot;) or . = concat(&quot;My Collectionschevron_rightCreate a Collec...Create a Collection*Required fieldsLogo imageThis image will also be used for navigation. 350 x 350 recommended.imageFeatured imageThis image will be used for featuring your collection on the homepage, category pages, or other promotional areas of OpenSea. 600 x 400 recommended.closeimageBanner imageThis image will appear at the top of your collection page. Avoid including too much text in this banner image, as the dimensions change on different devices. 1400 x 350 recommended.closeimageNameURLCustomize your URL on OpenSea. Must only contain lowercase letters, numbers, and hyphens.https://opensea.io/collection/DescriptionMarkdown syntax is supported. 0 of 1000 characters used.CategoryAdding a category will help make your item discoverable on OpenSea.Add categoryinfoNew categories and tags coming soonThe category selection above will be going away soon. The category you choose below will appear on your collection and item pages. Categories and tags will also appear in other places throughout OpenSea soon. Select or confirm the category and tags for your collection. Learn moreSelect a categorykeyboard_arrow_downYou can review and change your category and tags at any time. Don&quot; , &quot;'&quot; , &quot;t see the right category? Send us feedbackLinkshttps://www.medium.com/@https://t.me/Creator fees Learn moreCollection owners can collect a fee when a user re-sells an item they created. Contact the collection owner to change the fee percentage or the payout address.Add addressBlockchainSelect the blockchain where you&quot; , &quot;'&quot; , &quot;d like new items from this collection to be added by default.infokeyboard_arrow_downPayment tokensThese tokens can be used to buy and sell your items.ETHGoerliWETHGoerlikeyboard_arrow_downDisplay themeChange how your items are shown.PaddedRecommended for assets with transparent backgroundContainedRecommended for assets that are not a 1:1 ratiocheckCoveredRecommended for assets that can extend to the edgeExplicit &amp; sensitive contentSet this collection as explicit and sensitive contentinfoShow OpenRarity ranking Learn moreTurn on after all items revealed and attribute metadata is finalized.Create&quot;))]</value>
+      <webElementGuid>330f940b-0c14-40dd-ad4f-e66269102c7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

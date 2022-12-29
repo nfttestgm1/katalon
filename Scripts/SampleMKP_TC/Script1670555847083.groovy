@@ -21,21 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url_MKP)
 
-WebUI.setText(findTestObject('Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'), 'search demo')
+WebUI.setText(findTestObject('Object Repository/RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), 'search demo')
 
-WebUI.sendKeys(findTestObject('Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'), '')
+WebUI.setText(findTestObject('Object Repository/RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), '')
 
 WebUI.click(findTestObject('Object Repository/Test2_MKP/Page_YoVerse Market/div_Explore'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('Test2_MKP/Page_YoVerse Market/inputToSearch'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), 0)
 
-WebUI.setText(findTestObject('Test2_MKP/Page_YoVerse Market/inputToSearch'), 'clear demo')
+WebUI.setText(findTestObject('RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), 'clear demo')
 
-WebUI.sendKeys(findTestObject('Object Repository/Test2_MKP/Page_YoVerse Market/inputToSearch'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), Keys.chord(Keys.ENTER))
 
-WebUI.clearText(findTestObject('Test2_MKP/Page_YoVerse Market/inputToSearch'), FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('RecordOnExistingBrowser/Page_YoVerse Market/inputToSearch'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

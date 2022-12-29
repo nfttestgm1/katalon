@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify My Profile_Liked_is displayed successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d38a4c2e-281a-4d99-baa4-0e6599df78c7</testCaseGuid>
+</TestCaseEntity>

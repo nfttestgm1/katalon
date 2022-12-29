@@ -796,10 +796,7 @@
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2022-12-11T17:36:45</date>
   <millis>1670755005769</millis>
@@ -1749,3 +1746,4 @@
   <escapedJava>false</escapedJava>
   <property name="harId">b893a3db-7c9d-4516-b566-ad4801d2998b</property>
 </record>
+</log>

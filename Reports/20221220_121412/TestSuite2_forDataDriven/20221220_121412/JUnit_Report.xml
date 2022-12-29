@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite2_forDataDriven" time="24.362" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite2_forDataDriven" tests="3" failures="0" errors="0" time="24.362" skipped="0" timestamp="2022-12-20 12:14:14" hostname="LAP15239-local - ManhTT" id="Test Suites/TestSuite2_forDataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221220_121412\\TestSuite2_forDataDriven\\20221220_121412"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20221220_121412\\TestSuite2_forDataDriven\\20221220_121412\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - ManhTT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.25.41.205"/>
+         <property name="sessionId" value="192609a6f4a3958a6b6134dcfe67eeaf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTests/Test2_DataDriven" time="9.388" classname="Test Cases/DataDrivenTests/Test2_DataDriven" status="PASSED">
+         <system-out><![CDATA[2022-12-20 12:14:14 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTests/Test2_DataDriven: Test Cases/DataDrivenTests/Test2_DataDriven
+
+2022-12-20 12:14:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-20 12:14:14 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2022-12-20 12:14:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 12:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 12:14:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 12:14:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 12:14:17 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:20 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username"), username): Text 'abc' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:21 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:21 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:21 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:21 - [TEST_STEP][PASSED] - setText(findTestObject("RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), password): Text 'def' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:22 - [MESSAGE][PASSED] - Text 'def' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 12:14:24 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-20 12:14:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-20 12:14:24 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTests/Test2_DataDriven" time="7.449" classname="Test Cases/DataDrivenTests/Test2_DataDriven" status="PASSED">
+         <system-out><![CDATA[2022-12-20 12:14:24 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTests/Test2_DataDriven: Test Cases/DataDrivenTests/Test2_DataDriven
+
+2022-12-20 12:14:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-20 12:14:24 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2022-12-20 12:14:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 12:14:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 12:14:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 12:14:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 12:14:25 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username"), username): Text 'b123' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:29 - [MESSAGE][PASSED] - Text 'b123' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:29 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:29 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), password): Text 'b456' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:30 - [MESSAGE][PASSED] - Text 'b456' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 12:14:31 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-20 12:14:31 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-20 12:14:31 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTests/Test2_DataDriven" time="7.048" classname="Test Cases/DataDrivenTests/Test2_DataDriven" status="PASSED">
+         <system-out><![CDATA[2022-12-20 12:14:31 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTests/Test2_DataDriven: Test Cases/DataDrivenTests/Test2_DataDriven
+
+2022-12-20 12:14:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2022-12-20 12:14:31 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2022-12-20 12:14:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-20 12:14:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-20 12:14:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-20 12:14:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-20 12:14:32 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/profile.php#login"): Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/profile.php#login' successfully
+
+2022-12-20 12:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username"), username): Text 'John Doe' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'
+
+2022-12-20 12:14:36 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+2022-12-20 12:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:36 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Password_password'
+
+2022-12-20 12:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2022-12-20 12:14:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-20 12:14:38 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-20 12:14:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2022-12-20 12:14:38 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-20 12:14:14 - [TEST_SUITE][PASSED] - TestSuite2_forDataDriven: Test Cases/DataDrivenTests/Test2_DataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
