@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MKP" time="168.882" tests="13" failures="0" errors="0">
+   <testsuite name="MKP" tests="13" failures="0" errors="0" time="168.882" skipped="0" timestamp="2023-01-03 10:10:13" hostname="LAP15239-local - ManhTT" id="Test Suites/MKP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230103_101011\\MKP\\20230103_101011"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230103_101011\\MKP\\20230103_101011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - ManhTT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.25.47.196"/>
+         <property name="sessionId" value="3d4017f41a4757de060d86aa0b75b4d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_24 hours" time="13.802" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_24 hours" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:10:14 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_24 hours: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_24 hours
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:14 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:10:14 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:10:17 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:10:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:17 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:19 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:20 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:23 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:24 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_24 hours")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:10:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:26 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:26 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:26 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:26 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:10:27 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:10:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:10:27 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days" time="9.94" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:10:27 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:28 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:10:28 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:10:29 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:10:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:30 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:31 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:32 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:35 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:10:37 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:10:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:10:37 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days_Private Listing_Add Member" time="13.166" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days_Private Listing_Add Member" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:10:37 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days_Private Listing_Add Member: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days_Private Listing_Add Member
+
+2023-01-03 10:10:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:10:37 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:38 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:10:38 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:10:39 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:10:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:40 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:43 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:47 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Manage member")): Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:10:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_Wallet Address or Username"), "lamldt"): Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:10:48 - [MESSAGE][PASSED] - Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Add member")): Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Done")): Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:50 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:10:51 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_30 days" time="9.744" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_30 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:10:51 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_30 days: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_30 days
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:51 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:10:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:10:52 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:10:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:10:53 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:54 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:10:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:57 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:10:59 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:10:59 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:10:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:11:00 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:11:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:11:00 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_7 days" time="10.664" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_7 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:11:00 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_7 days: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_7 days
+
+2023-01-03 10:11:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:11:00 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:01 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:11:01 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:11:02 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:11:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:04 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:05 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:08 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_7 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_7 days' is clicked on
+
+2023-01-03 10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_7 days' is clicked on
+
+2023-01-03 10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:10 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:11:11 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_90 days" time="11.506" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_90 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:11:11 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_90 days: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_90 days
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:11 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:11:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:11:13 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:11:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:14 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:14 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:20 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:20 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_90 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_90 days' is clicked on
+
+2023-01-03 10:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_90 days' is clicked on
+
+2023-01-03 10:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:21 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:21 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:11:23 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_Set Full" time="14.578" classname="Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_Set Full" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:11:23 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_Set Full: Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_Set Full
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:23 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:11:23 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:11:24 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:11:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:25 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:28 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:29 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Fixed Price")): Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Fixed Price' is clicked on
+
+2023-01-03 10:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_fixed-price-duration")): Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_fixed-price-duration' is clicked on
+
+2023-01-03 10:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_price-token")): Object: 'Object Repository/1.MKP/Sell/button_price-token' is clicked on
+
+2023-01-03 10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_price-token' is clicked on
+
+2023-01-03 10:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Token_0")): Object: 'Object Repository/1.MKP/Sell/div_Token_0' is clicked on
+
+2023-01-03 10:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Token_0' is clicked on
+
+2023-01-03 10:11:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_fixed-price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:34 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_fixed-price-amount'
+
+2023-01-03 10:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Manage member")): Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_Wallet Address or Username"), "lamldt"): Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:11:35 - [MESSAGE][PASSED] - Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Add member")): Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Done")): Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:11:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:36 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:11:37 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:11:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:11:37 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours" time="12.778" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:11:37 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours
+
+2023-01-03 10:11:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:11:37 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:38 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:11:38 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:11:39 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:11:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:40 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:41 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:42 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:11:45 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:11:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_24 hours")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:11:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:11:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:11:49 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:11:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:11:50 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:11:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:11:50 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours_Private Listing_Add Member" time="14.104" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours_Private Listing_Add Member" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:11:50 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours_Private Listing_Add Member: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours_Private Listing_Add Member
+
+2023-01-03 10:11:50 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:11:50 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:51 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:11:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:11:52 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:11:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:11:53 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:54 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:11:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:55 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:11:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:11:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:11:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_24 hours")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:00 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Manage member")): Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:12:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_Wallet Address or Username"), "lamldt"): Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:12:02 - [MESSAGE][PASSED] - Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Add member")): Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Done")): Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:12:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:12:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:02 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:03 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:12:04 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:12:04 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_3 days" time="13.619" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_3 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:12:04 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_3 days: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_3 days
+
+2023-01-03 10:12:04 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:12:04 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:05 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:12:05 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:12:06 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:12:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:08 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:09 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:13 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:16 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:12:18 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_30 days" time="14.353" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_30 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:12:18 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_30 days: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_30 days
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:18 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:12:18 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:12:20 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:12:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:21 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:22 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:23 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:24 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:27 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_3 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_3 days' is clicked on
+
+2023-01-03 10:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:31 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:12:32 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:12:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:12:32 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_7 days" time="14.049" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_7 days" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:12:32 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_7 days: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_7 days
+
+2023-01-03 10:12:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:12:32 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:33 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:12:33 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:12:34 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:12:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:37 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:38 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:41 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_7 days")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_7 days' is clicked on
+
+2023-01-03 10:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_7 days' is clicked on
+
+2023-01-03 10:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:12:45 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:12:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:12:46 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:12:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:12:46 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full" time="16.264" classname="Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full" status="PASSED">
+         <system-out><![CDATA[2023-01-03 10:12:46 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full
+
+2023-01-03 10:12:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-01-03 10:12:46 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenChromeProfiles"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:47 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenChromeProfiles: Test Cases/1.MKP/BeforeTest/OpenChromeProfiles
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", "C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe"): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - eSwitches = new java.util.ArrayList(): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - eSwitches.add("enable-automation"): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - options.setExperimentalOption("excludeSwitches", eSwitches): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - options.addArguments("--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data"): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - options.addArguments("--profile-directory=Profile 4"): null
+
+2023-01-03 10:12:47 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+2023-01-03 10:12:48 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-01-03 10:12:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenChromeProfiles' successfully
+
+2023-01-03 10:12:49 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:50 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-01-03 10:12:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar"), 5): Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clickable
+
+2023-01-03 10:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/img_header_profile_avatar")): Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/img_header_profile_avatar' is clicked on
+
+2023-01-03 10:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_My Profile")): Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_My Profile' is clicked on
+
+2023-01-03 10:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Owned")): Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Owned' is clicked on
+
+2023-01-03 10:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Sell")): Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Sell' is clicked on
+
+2023-01-03 10:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Timed Auction")): Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Timed Auction' is clicked on
+
+2023-01-03 10:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Method")): Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Method' is clicked on
+
+2023-01-03 10:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Sell to the highest bidder")): Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Sell to the highest bidder' is clicked on
+
+2023-01-03 10:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_timed-auction-duration")): Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_timed-auction-duration' is clicked on
+
+2023-01-03 10:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_dateRange")): Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_dateRange' is clicked on
+
+2023-01-03 10:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Date Range_24 hours")): Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Date Range_24 hours' is clicked on
+
+2023-01-03 10:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Confirm_Duration")): Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Confirm_Duration' is clicked on
+
+2023-01-03 10:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_minimum-bid-increment")): Object: 'Object Repository/1.MKP/Sell/button_minimum-bid-increment' is clicked on
+
+2023-01-03 10:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_minimum-bid-increment' is clicked on
+
+2023-01-03 10:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Bid Increment_5")): Object: 'Object Repository/1.MKP/Sell/div_Bid Increment_5' is clicked on
+
+2023-01-03 10:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Bid Increment_5' is clicked on
+
+2023-01-03 10:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_start-price-token")): Object: 'Object Repository/1.MKP/Sell/button_start-price-token' is clicked on
+
+2023-01-03 10:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_start-price-token' is clicked on
+
+2023-01-03 10:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Token_0")): Object: 'Object Repository/1.MKP/Sell/div_Token_0' is clicked on
+
+2023-01-03 10:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Token_0' is clicked on
+
+2023-01-03 10:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_price-amount"), priceToSell): Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:58 - [MESSAGE][PASSED] - Text '55' is set on object 'Object Repository/1.MKP/Sell/input_price-amount'
+
+2023-01-03 10:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Include Buy Now option")): Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Include Buy Now option' is clicked on
+
+2023-01-03 10:12:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_buy-now-token")): Object: 'Object Repository/1.MKP/Sell/button_buy-now-token' is clicked on
+
+2023-01-03 10:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_buy-now-token' is clicked on
+
+2023-01-03 10:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_buy-now-amount"), priceToBuyNow): Text '100' is set on object 'Object Repository/1.MKP/Sell/input_buy-now-amount'
+
+2023-01-03 10:12:59 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/1.MKP/Sell/input_buy-now-amount'
+
+2023-01-03 10:12:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/span_Private_Listing")): Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/span_Private_Listing' is clicked on
+
+2023-01-03 10:12:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Manage member")): Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:12:59 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Manage member' is clicked on
+
+2023-01-03 10:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/1.MKP/Sell/input_Wallet Address or Username"), "lamldt"): Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:13:00 - [MESSAGE][PASSED] - Text 'lamldt' is set on object 'Object Repository/1.MKP/Sell/input_Wallet Address or Username'
+
+2023-01-03 10:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Add member")): Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Add member' is clicked on
+
+2023-01-03 10:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/div_Done")): Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/div_Done' is clicked on
+
+2023-01-03 10:13:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/1.MKP/Sell/button_Place on market"), 5): Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Sell/button_Place on market' is clickable
+
+2023-01-03 10:13:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Sell/button_Place on market")): Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Place on market' is clicked on
+
+2023-01-03 10:13:01 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Sell/button_Close_Popup")): Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Sell/button_Close_Popup' is clicked on
+
+2023-01-03 10:13:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-03 10:13:02 - [MESSAGE][PASSED] - Browser is closed
+
+2023-01-03 10:13:02 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-01-03 10:13:02 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-03 10:10:13 - [TEST_SUITE][PASSED] - MKP: Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

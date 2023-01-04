@@ -54,4 +54,9 @@
       <initValue>'100'</initValue>
       <name>priceToBuyNow</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NFT_Collection_1'</initValue>
+      <name>sampleCollectionName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

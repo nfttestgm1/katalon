@@ -57,21 +57,21 @@ class LoginSteps {
 		println("Username: " +username)
 		println("Password: " +password)
 		
-		WebUI.setText(findTestObject('RecordOnExistingBrowser/Page_OrangeHRM/input_Username_username'), username)
-		WebUI.setText(findTestObject('RecordOnExistingBrowser/Page_OrangeHRM/input_Password_password'), password)
+		WebUI.setText(findTestObject('0.Study/RecordOnExistingBrowser/Page_OrangeHRM/input_Username_username'), username)
+		WebUI.setText(findTestObject('0.Study/RecordOnExistingBrowser/Page_OrangeHRM/input_Password_password'), password)
 	}
 
 	@And("Click on login button")
 	def clickLogin() {
 		println("\n I am inside clickLogin")
 		Thread.sleep(2000)
-		WebUI.click(findTestObject('RecordOnExistingBrowser/Page_OrangeHRM/button_Login'))
+		WebUI.click(findTestObject('0.Study/RecordOnExistingBrowser/Page_OrangeHRM/button_Login'))
 	}
 
 	@Then("User is navigated to homepage")
 	def verifyHomepage() {
 		println("\n I am inside verifyHomepage")
-		WebUI.verifyElementVisible(findTestObject('RecordOnExistingBrowser/Page_OrangeHRM/a_Dashboard'))
+		WebUI.verifyElementVisible(findTestObject('0.Study/RecordOnExistingBrowser/Page_OrangeHRM/a_Dashboard'))
 		Thread.sleep(2000)
 		WebUI.closeBrowser()
 	}

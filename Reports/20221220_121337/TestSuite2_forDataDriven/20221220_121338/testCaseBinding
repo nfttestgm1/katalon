@@ -1,3 +1,0 @@
-{"testCaseName":"Test Cases/DataDrivenTests/Test2_DataDriven","testCaseId":"Test Cases/DataDrivenTests/Test2_DataDriven","iterationVariableName":"","bindedValues":{"password":"\u0027def\u0027","username":"\u0027abc\u0027"}}
-{"testCaseName":"Test Cases/DataDrivenTests/Test2_DataDriven","testCaseId":"Test Cases/DataDrivenTests/Test2_DataDriven","iterationVariableName":"","bindedValues":{"password":"\u0027b456\u0027","username":"\u0027b123\u0027"}}
-{"testCaseName":"Test Cases/DataDrivenTests/Test2_DataDriven","testCaseId":"Test Cases/DataDrivenTests/Test2_DataDriven","iterationVariableName":"","bindedValues":{"password":"\u0027ThisIsNotAPassword\u0027","username":"\u0027John Doe\u0027"}}

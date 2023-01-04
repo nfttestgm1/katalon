@@ -15,14 +15,14 @@
       <guid>42c7d0d1-037c-4a5e-97f1-9619418fd4ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/SampleMKP_TC</testCaseId>
+      <testCaseId>Test Cases/0.Study/SampleMKP_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6b4138f8-2654-4ea2-af77-53a6f0744b90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SampleOrangeHRM_TC</testCaseId>
+      <testCaseId>Test Cases/0.Study/SampleOrangeHRM_TC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

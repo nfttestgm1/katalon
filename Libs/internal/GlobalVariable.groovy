@@ -59,6 +59,11 @@ public class GlobalVariable {
      */
     public static Object priceToBuyNow
      
+    /**
+     * <p></p>
+     */
+    public static Object sampleCollectionName
+     
 
     static {
         try {
@@ -76,6 +81,7 @@ public class GlobalVariable {
             itemToSell = selectedVariables['itemToSell']
             priceToSell = selectedVariables['priceToSell']
             priceToBuyNow = selectedVariables['priceToBuyNow']
+            sampleCollectionName = selectedVariables['sampleCollectionName']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -1,0 +1,343 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MKP,Chrome 108.0.0.0,,,2023-01-03 16:49:42,2023-01-03 16:52:13,2m - 31.236s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_24 hours,Chrome 108.0.0.0,,,2023-01-03 16:49:42,2023-01-03 16:49:57,14.500s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:49:42,2023-01-03 16:49:42,0.017s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:49:42,2023-01-03 16:49:47,4.788s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:49:47,2023-01-03 16:49:49,1.932s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:49:49,2023-01-03 16:49:50,0.710s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:49:50,2023-01-03 16:49:50,0.457s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:49:50,2023-01-03 16:49:51,0.433s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:49:51,2023-01-03 16:49:51,0.803s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:49:51,2023-01-03 16:49:52,0.577s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:49:52,2023-01-03 16:49:53,0.618s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:49:53,2023-01-03 16:49:53,0.395s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:49:53,2023-01-03 16:49:53,0.263s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:49:53,2023-01-03 16:49:54,0.207s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:49:54,2023-01-03 16:49:54,0.352s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:49:54,2023-01-03 16:49:54,0.268s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_24 hours""))",Chrome 108.0.0.0,,,2023-01-03 16:49:54,2023-01-03 16:49:54,0.278s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:49:54,2023-01-03 16:49:55,0.285s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:49:55,2023-01-03 16:49:55,0.209s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:49:55,2023-01-03 16:49:55,0.283s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:49:55,2023-01-03 16:49:55,0.254s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:49:55,2023-01-03 16:49:57,1.048s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:49:57,2023-01-03 16:49:57,0.002s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days,Chrome 108.0.0.0,,,2023-01-03 16:49:57,2023-01-03 16:50:08,11.385s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:49:57,2023-01-03 16:49:57,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:49:57,2023-01-03 16:50:01,3.813s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:01,2023-01-03 16:50:02,0.994s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:02,2023-01-03 16:50:03,0.706s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:03,2023-01-03 16:50:04,0.951s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:04,2023-01-03 16:50:04,0.180s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:04,2023-01-03 16:50:04,0.510s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:04,2023-01-03 16:50:05,0.407s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:05,2023-01-03 16:50:05,0.581s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:50:05,2023-01-03 16:50:06,0.296s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:06,0.143s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:06,0.144s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:06,0.218s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:06,0.191s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:06,0.175s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:06,2023-01-03 16:50:07,0.179s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:07,2023-01-03 16:50:07,0.099s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:50:07,2023-01-03 16:50:07,0.166s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:50:07,2023-01-03 16:50:07,0.143s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:50:07,2023-01-03 16:50:08,0.857s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:08,2023-01-03 16:50:08,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_3 days_Private Listing_Add Member,Chrome 108.0.0.0,,,2023-01-03 16:50:08,2023-01-03 16:50:20,11.825s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:08,2023-01-03 16:50:08,0.003s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:50:08,2023-01-03 16:50:11,2.760s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:11,2023-01-03 16:50:12,0.750s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:12,2023-01-03 16:50:12,0.677s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:12,2023-01-03 16:50:13,0.812s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:13,2023-01-03 16:50:13,0.282s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:13,2023-01-03 16:50:15,1.371s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:15,2023-01-03 16:50:15,0.561s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:15,2023-01-03 16:50:16,0.547s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:50:16,2023-01-03 16:50:16,0.301s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:16,2023-01-03 16:50:16,0.173s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Manage member""))",Chrome 108.0.0.0,,,2023-01-03 16:50:16,2023-01-03 16:50:17,0.237s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_Wallet Address or Username""), ""lamldt"")",Chrome 108.0.0.0,,,2023-01-03 16:50:17,2023-01-03 16:50:17,0.408s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Add member""))",Chrome 108.0.0.0,,,2023-01-03 16:50:17,2023-01-03 16:50:17,0.209s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Done""))",Chrome 108.0.0.0,,,2023-01-03 16:50:17,2023-01-03 16:50:17,0.180s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:17,2023-01-03 16:50:18,0.241s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:18,2023-01-03 16:50:18,0.202s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:18,2023-01-03 16:50:18,0.214s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:18,2023-01-03 16:50:18,0.183s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:18,2023-01-03 16:50:18,0.120s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:50:18,2023-01-03 16:50:19,0.198s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:50:19,2023-01-03 16:50:19,0.203s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:50:19,2023-01-03 16:50:20,0.955s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:20,2023-01-03 16:50:20,0.000s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_30 days,Chrome 108.0.0.0,,,2023-01-03 16:50:20,2023-01-03 16:50:30,10.477s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:20,2023-01-03 16:50:20,0.001s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:50:20,2023-01-03 16:50:22,2.517s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:22,2023-01-03 16:50:23,0.902s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:23,2023-01-03 16:50:25,1.157s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:25,2023-01-03 16:50:25,0.581s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:25,2023-01-03 16:50:26,0.396s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:26,2023-01-03 16:50:26,0.481s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:26,2023-01-03 16:50:26,0.433s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:26,2023-01-03 16:50:27,0.644s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:50:27,2023-01-03 16:50:27,0.403s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:27,2023-01-03 16:50:28,0.237s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:28,2023-01-03 16:50:28,0.114s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:28,2023-01-03 16:50:28,0.242s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:28,2023-01-03 16:50:28,0.182s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:28,2023-01-03 16:50:28,0.228s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:28,2023-01-03 16:50:29,0.176s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:29,2023-01-03 16:50:29,0.106s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:50:29,2023-01-03 16:50:29,0.194s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:50:29,2023-01-03 16:50:29,0.315s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:50:29,2023-01-03 16:50:30,0.959s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:30,2023-01-03 16:50:30,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_7 days,Chrome 108.0.0.0,,,2023-01-03 16:50:30,2023-01-03 16:50:41,10.538s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:30,2023-01-03 16:50:30,0.001s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:50:30,2023-01-03 16:50:33,3.028s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:33,2023-01-03 16:50:34,0.781s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:34,2023-01-03 16:50:35,0.917s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:35,2023-01-03 16:50:36,0.614s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:36,2023-01-03 16:50:37,0.750s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:37,2023-01-03 16:50:37,0.487s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:37,2023-01-03 16:50:38,0.625s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:50:38,2023-01-03 16:50:38,0.384s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:38,2023-01-03 16:50:38,0.210s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:38,2023-01-03 16:50:38,0.212s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:38,2023-01-03 16:50:39,0.296s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:39,2023-01-03 16:50:39,0.206s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_7 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:39,2023-01-03 16:50:39,0.186s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:39,2023-01-03 16:50:39,0.199s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:39,2023-01-03 16:50:39,0.126s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:50:39,2023-01-03 16:50:40,0.168s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:50:40,2023-01-03 16:50:40,0.136s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:50:40,2023-01-03 16:50:41,0.978s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:41,2023-01-03 16:50:41,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_90 days,Chrome 108.0.0.0,,,2023-01-03 16:50:41,2023-01-03 16:50:52,10.983s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:41,2023-01-03 16:50:41,0.000s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:50:41,2023-01-03 16:50:45,4.131s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:45,2023-01-03 16:50:46,0.770s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:46,2023-01-03 16:50:47,0.784s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:47,2023-01-03 16:50:47,0.261s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:47,2023-01-03 16:50:47,0.437s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:47,2023-01-03 16:50:48,0.371s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:48,2023-01-03 16:50:48,0.437s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:48,2023-01-03 16:50:49,0.616s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:50:49,2023-01-03 16:50:49,0.249s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:49,2023-01-03 16:50:49,0.144s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:50:49,2023-01-03 16:50:49,0.140s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:49,2023-01-03 16:50:50,0.254s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:50,2023-01-03 16:50:50,0.202s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_90 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:50,2023-01-03 16:50:50,0.225s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:50,2023-01-03 16:50:50,0.267s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:50,2023-01-03 16:50:50,0.124s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:50:50,2023-01-03 16:50:51,0.180s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:50:51,2023-01-03 16:50:51,0.180s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:50:51,2023-01-03 16:50:52,1.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:52,2023-01-03 16:50:52,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Fixed Price/Sell_Fixed Price_Cancel_Set Full,Chrome 108.0.0.0,,,2023-01-03 16:50:52,2023-01-03 16:51:03,11.384s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:50:52,2023-01-03 16:50:52,0.001s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:50:52,2023-01-03 16:50:54,2.503s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:50:54,2023-01-03 16:50:56,1.063s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:50:56,2023-01-03 16:50:56,0.679s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:50:56,2023-01-03 16:50:57,0.358s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:50:57,2023-01-03 16:50:57,0.269s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:50:57,2023-01-03 16:50:58,0.752s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:50:58,2023-01-03 16:50:58,0.539s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Fixed Price""))",Chrome 108.0.0.0,,,2023-01-03 16:50:58,2023-01-03 16:50:59,0.625s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_fixed-price-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:50:59,2023-01-03 16:50:59,0.386s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:50:59,2023-01-03 16:50:59,0.269s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:50:59,2023-01-03 16:51:00,0.260s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:00,2023-01-03 16:51:00,0.171s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_price-token""))",Chrome 108.0.0.0,,,2023-01-03 16:51:00,2023-01-03 16:51:00,0.168s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Token_0""))",Chrome 108.0.0.0,,,2023-01-03 16:51:00,2023-01-03 16:51:00,0.190s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_fixed-price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:00,2023-01-03 16:51:01,0.336s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:01,2023-01-03 16:51:01,0.142s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Manage member""))",Chrome 108.0.0.0,,,2023-01-03 16:51:01,2023-01-03 16:51:01,0.181s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_Wallet Address or Username""), ""lamldt"")",Chrome 108.0.0.0,,,2023-01-03 16:51:01,2023-01-03 16:51:01,0.401s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Add member""))",Chrome 108.0.0.0,,,2023-01-03 16:51:01,2023-01-03 16:51:02,0.292s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Done""))",Chrome 108.0.0.0,,,2023-01-03 16:51:02,2023-01-03 16:51:02,0.240s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:02,2023-01-03 16:51:02,0.101s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:02,2023-01-03 16:51:02,0.185s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:02,2023-01-03 16:51:02,0.157s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:51:02,2023-01-03 16:51:03,0.909s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:03,2023-01-03 16:51:03,0.000s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours,Chrome 108.0.0.0,,,2023-01-03 16:51:03,2023-01-03 16:51:14,10.973s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:03,2023-01-03 16:51:03,0.000s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:51:03,2023-01-03 16:51:06,2.470s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:51:06,2023-01-03 16:51:07,1.046s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:07,2023-01-03 16:51:08,0.635s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:51:08,2023-01-03 16:51:08,0.731s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:51:08,2023-01-03 16:51:09,0.400s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:51:09,2023-01-03 16:51:09,0.546s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:51:09,2023-01-03 16:51:10,0.417s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:51:10,2023-01-03 16:51:10,0.606s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:10,2023-01-03 16:51:11,0.359s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:11,2023-01-03 16:51:11,0.237s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:11,2023-01-03 16:51:11,0.166s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:11,2023-01-03 16:51:11,0.204s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:11,2023-01-03 16:51:11,0.149s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:51:11,2023-01-03 16:51:12,0.223s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:51:12,2023-01-03 16:51:12,0.148s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:12,2023-01-03 16:51:12,0.350s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:51:12,2023-01-03 16:51:12,0.203s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_24 hours""))",Chrome 108.0.0.0,,,2023-01-03 16:51:12,2023-01-03 16:51:12,0.172s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:12,2023-01-03 16:51:13,0.200s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:13,2023-01-03 16:51:13,0.141s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:13,2023-01-03 16:51:13,0.220s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:13,2023-01-03 16:51:13,0.175s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:51:13,2023-01-03 16:51:14,0.952s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:14,2023-01-03 16:51:14,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_24 hours_Private Listing_Add Member,Chrome 108.0.0.0,,,2023-01-03 16:51:14,2023-01-03 16:51:28,13.400s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:14,2023-01-03 16:51:14,0.000s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:51:14,2023-01-03 16:51:19,4.482s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:51:19,2023-01-03 16:51:20,0.867s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:20,2023-01-03 16:51:20,0.679s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:51:20,2023-01-03 16:51:21,0.627s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:51:21,2023-01-03 16:51:21,0.372s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:51:21,2023-01-03 16:51:22,0.521s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:51:22,2023-01-03 16:51:22,0.383s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:51:22,2023-01-03 16:51:23,0.661s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:51:23,2023-01-03 16:51:23,0.165s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:51:23,2023-01-03 16:51:23,0.159s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:23,2023-01-03 16:51:24,0.248s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:51:24,2023-01-03 16:51:24,0.199s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_24 hours""))",Chrome 108.0.0.0,,,2023-01-03 16:51:24,2023-01-03 16:51:24,0.177s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:24,2023-01-03 16:51:24,0.178s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:24,2023-01-03 16:51:24,0.335s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:24,2023-01-03 16:51:25,0.207s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:25,2023-01-03 16:51:25,0.210s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:25,2023-01-03 16:51:25,0.203s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Manage member""))",Chrome 108.0.0.0,,,2023-01-03 16:51:25,2023-01-03 16:51:25,0.245s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_Wallet Address or Username""), ""lamldt"")",Chrome 108.0.0.0,,,2023-01-03 16:51:25,2023-01-03 16:51:26,0.412s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Add member""))",Chrome 108.0.0.0,,,2023-01-03 16:51:26,2023-01-03 16:51:26,0.225s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Done""))",Chrome 108.0.0.0,,,2023-01-03 16:51:26,2023-01-03 16:51:26,0.159s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:26,2023-01-03 16:51:26,0.106s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:26,2023-01-03 16:51:26,0.234s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:26,2023-01-03 16:51:27,0.184s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:51:27,2023-01-03 16:51:28,0.943s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:28,2023-01-03 16:51:28,0.000s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_3 days,Chrome 108.0.0.0,,,2023-01-03 16:51:28,2023-01-03 16:51:38,10.180s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:28,2023-01-03 16:51:28,0.000s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:51:28,2023-01-03 16:51:30,2.634s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:51:30,2023-01-03 16:51:31,0.817s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:31,2023-01-03 16:51:32,0.637s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:51:32,2023-01-03 16:51:33,0.780s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:51:33,2023-01-03 16:51:33,0.372s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:51:33,2023-01-03 16:51:33,0.483s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:51:33,2023-01-03 16:51:34,0.399s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:51:34,2023-01-03 16:51:34,0.572s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:34,2023-01-03 16:51:35,0.256s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:35,0.164s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:35,0.135s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:35,0.143s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:35,0.129s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:35,0.150s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:51:35,2023-01-03 16:51:36,0.136s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:36,0.208s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:36,0.184s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:36,0.182s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:36,0.172s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:36,0.114s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:36,2023-01-03 16:51:37,0.185s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:37,2023-01-03 16:51:37,0.134s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:51:37,2023-01-03 16:51:38,0.975s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:38,2023-01-03 16:51:38,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_30 days,Chrome 108.0.0.0,,,2023-01-03 16:51:38,2023-01-03 16:51:50,12.063s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:38,2023-01-03 16:51:38,0.001s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:51:38,2023-01-03 16:51:42,4.208s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:51:42,2023-01-03 16:51:43,0.853s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:43,2023-01-03 16:51:44,0.610s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:51:44,2023-01-03 16:51:44,0.552s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:51:44,2023-01-03 16:51:45,0.434s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:51:45,2023-01-03 16:51:45,0.511s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:51:45,2023-01-03 16:51:46,0.437s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:51:46,2023-01-03 16:51:46,0.562s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:46,2023-01-03 16:51:46,0.305s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:46,2023-01-03 16:51:47,0.222s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:47,2023-01-03 16:51:47,0.159s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:47,2023-01-03 16:51:47,0.201s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:47,2023-01-03 16:51:47,0.140s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:51:47,2023-01-03 16:51:47,0.154s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:51:47,2023-01-03 16:51:48,0.190s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:48,0.298s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:48,0.189s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_3 days""))",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:48,0.180s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:48,0.162s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:48,0.123s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:48,2023-01-03 16:51:49,0.218s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:49,2023-01-03 16:51:49,0.162s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:51:49,2023-01-03 16:51:50,0.948s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:50,2023-01-03 16:51:50,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_7 days,Chrome 108.0.0.0,,,2023-01-03 16:51:50,2023-01-03 16:52:00,10.699s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:51:50,2023-01-03 16:51:50,0.001s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:51:50,2023-01-03 16:51:52,2.476s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:51:52,2023-01-03 16:51:53,0.797s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:53,2023-01-03 16:51:54,0.876s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:51:54,2023-01-03 16:51:55,0.382s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:51:55,2023-01-03 16:51:55,0.375s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:51:55,2023-01-03 16:51:55,0.391s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:51:55,2023-01-03 16:51:56,0.455s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:51:56,2023-01-03 16:51:57,0.780s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:51:57,2023-01-03 16:51:57,0.390s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:57,2023-01-03 16:51:57,0.198s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:51:57,2023-01-03 16:51:57,0.191s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:57,2023-01-03 16:51:58,0.212s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:51:58,2023-01-03 16:51:58,0.226s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:51:58,2023-01-03 16:51:58,0.184s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:51:58,2023-01-03 16:51:58,0.193s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:58,2023-01-03 16:51:58,0.260s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:51:58,2023-01-03 16:51:59,0.199s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_7 days""))",Chrome 108.0.0.0,,,2023-01-03 16:51:59,2023-01-03 16:51:59,0.213s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:51:59,2023-01-03 16:51:59,0.249s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:51:59,2023-01-03 16:51:59,0.139s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:51:59,2023-01-03 16:51:59,0.217s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:51:59,2023-01-03 16:52:00,0.159s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:52:00,2023-01-03 16:52:00,0.915s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:52:00,2023-01-03 16:52:00,0.001s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Sell/Timed Auction/Sell_Timed Auction_Cancel_Set Full,Chrome 108.0.0.0,,,2023-01-03 16:52:00,2023-01-03 16:52:13,12.483s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 108.0.0.0,,,2023-01-03 16:52:00,2023-01-03 16:52:00,0.000s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenChromeProfiles""), [:], STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-03 16:52:01,2023-01-03 16:52:03,2.685s,PASSED
+navigateToUrl(MKP_url),Chrome 108.0.0.0,,,2023-01-03 16:52:03,2023-01-03 16:52:04,0.960s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:52:04,2023-01-03 16:52:05,0.683s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/img_header_profile_avatar""))",Chrome 108.0.0.0,,,2023-01-03 16:52:05,2023-01-03 16:52:05,0.204s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_My Profile""))",Chrome 108.0.0.0,,,2023-01-03 16:52:05,2023-01-03 16:52:06,0.540s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Owned""))",Chrome 108.0.0.0,,,2023-01-03 16:52:06,2023-01-03 16:52:07,0.811s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Sell""))",Chrome 108.0.0.0,,,2023-01-03 16:52:07,2023-01-03 16:52:07,0.416s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Timed Auction""))",Chrome 108.0.0.0,,,2023-01-03 16:52:07,2023-01-03 16:52:08,0.668s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Method""))",Chrome 108.0.0.0,,,2023-01-03 16:52:08,2023-01-03 16:52:08,0.188s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Sell to the highest bidder""))",Chrome 108.0.0.0,,,2023-01-03 16:52:08,2023-01-03 16:52:08,0.169s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_timed-auction-duration""))",Chrome 108.0.0.0,,,2023-01-03 16:52:08,2023-01-03 16:52:08,0.216s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_dateRange""))",Chrome 108.0.0.0,,,2023-01-03 16:52:08,2023-01-03 16:52:08,0.184s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Date Range_24 hours""))",Chrome 108.0.0.0,,,2023-01-03 16:52:08,2023-01-03 16:52:09,0.184s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Confirm_Duration""))",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:09,0.164s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_minimum-bid-increment""))",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:09,0.170s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Bid Increment_5""))",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:09,0.139s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_start-price-token""))",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:09,0.125s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Token_0""))",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:09,0.140s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_price-amount""), priceToSell)",Chrome 108.0.0.0,,,2023-01-03 16:52:09,2023-01-03 16:52:10,0.262s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Include Buy Now option""))",Chrome 108.0.0.0,,,2023-01-03 16:52:10,2023-01-03 16:52:10,0.198s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_buy-now-token""))",Chrome 108.0.0.0,,,2023-01-03 16:52:10,2023-01-03 16:52:10,0.138s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_buy-now-amount""), priceToBuyNow)",Chrome 108.0.0.0,,,2023-01-03 16:52:10,2023-01-03 16:52:10,0.382s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/span_Private_Listing""))",Chrome 108.0.0.0,,,2023-01-03 16:52:10,2023-01-03 16:52:10,0.163s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Manage member""))",Chrome 108.0.0.0,,,2023-01-03 16:52:10,2023-01-03 16:52:11,0.150s,PASSED
+"setText(findTestObject(""Object Repository/1.MKP/Sell/input_Wallet Address or Username""), ""lamldt"")",Chrome 108.0.0.0,,,2023-01-03 16:52:11,2023-01-03 16:52:11,0.349s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Add member""))",Chrome 108.0.0.0,,,2023-01-03 16:52:11,2023-01-03 16:52:11,0.240s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/div_Done""))",Chrome 108.0.0.0,,,2023-01-03 16:52:11,2023-01-03 16:52:11,0.264s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""), 5)",Chrome 108.0.0.0,,,2023-01-03 16:52:11,2023-01-03 16:52:12,0.150s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Sell/button_Place on market""))",Chrome 108.0.0.0,,,2023-01-03 16:52:12,2023-01-03 16:52:12,0.174s,PASSED
+"click(findTestObject(""1.MKP/Sell/button_Close_Popup""))",Chrome 108.0.0.0,,,2023-01-03 16:52:12,2023-01-03 16:52:12,0.180s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2023-01-03 16:52:12,2023-01-03 16:52:13,0.981s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 108.0.0.0,,,2023-01-03 16:52:13,2023-01-03 16:52:13,0.000s,PASSED

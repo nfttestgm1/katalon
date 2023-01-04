@@ -22,11 +22,11 @@ import internal.GlobalVariable
 
 public class inputSomeUsername {
 	public void inputUser(String text) {
-		WebUI.setText(findTestObject('Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'),text)
+		WebUI.setText(findTestObject('Object Repository/0.Study/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'),text)
 //		WebUI.delay(2)
-//		WebUI.click(findTestObject('Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login'))
+//		WebUI.click(findTestObject('Object Repository/0.Study/RecordOnExistingBrowser/Page_CURA Healthcare Service/button_Login'))
 //		WebUI.delay(2)
-//		WebUI.clearText(findTestObject('Object Repository/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'))
+//		WebUI.clearText(findTestObject('Object Repository/0.Study/RecordOnExistingBrowser/Page_CURA Healthcare Service/input_Username_username'))
 //		WebUI.delay(2)
 	}
 }
