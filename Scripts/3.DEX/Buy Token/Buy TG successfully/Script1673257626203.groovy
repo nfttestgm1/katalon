@@ -192,3 +192,4 @@ WebUI.verifyEqual(amountBeforeBuyTokenDouble - GlobalVariable.token_amount*8.54,
 WebUI.delay(2)
 
 WebUI.closeBrowser()
+//
