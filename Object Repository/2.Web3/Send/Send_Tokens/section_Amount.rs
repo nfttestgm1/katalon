@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Amount</name>
+   <tag></tag>
+   <elementGuidId>7c9f3f36-46e9-485b-baa2-908b7b400e83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[4]/div/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.chakra-text.css-q3nkt3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Amount' or . = 'Amount')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f31964e4-9832-4b02-8c96-91963a2d7b40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-q3nkt3</value>
+      <webElementGuid>e9098798-e548-4380-bfa4-8534fc8d03f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Amount</value>
+      <webElementGuid>0fc91f51-9a17-4156-a7fd-5e4a93ee42ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-50on1g&quot;]/div[@class=&quot;css-1vyctbq&quot;]/div[@class=&quot;css-25zip3&quot;]/div[@class=&quot;css-1ksbb1k&quot;]/div[@class=&quot;css-18s4k7b&quot;]/div[@class=&quot;css-kodu7a&quot;]/p[@class=&quot;chakra-text css-q3nkt3&quot;]</value>
+      <webElementGuid>ce583942-4566-48a6-8b62-ac8a60df876c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/p</value>
+      <webElementGuid>538ec687-5baf-46fe-acbe-3aad838127c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setting'])[2]/following::p[1]</value>
+      <webElementGuid>7470cb5e-859e-4a70-b055-48be5beae929</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discovery'])[1]/following::p[1]</value>
+      <webElementGuid>b90389c3-1d6e-422e-9831-ea889286c0f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC1'])[1]/preceding::p[1]</value>
+      <webElementGuid>2ed3f006-a9d2-43ac-897c-8c622df39b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC1'])[2]/preceding::p[1]</value>
+      <webElementGuid>3b1573ee-6af9-404c-a640-c0bc33b66206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Amount']/parent::*</value>
+      <webElementGuid>5bac9be9-b8c7-44ea-9d2f-8596afc4a1ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>7192f842-b04c-4fce-a6cc-84dfd82f22cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Amount' or . = 'Amount')]</value>
+      <webElementGuid>b91acc98-86b0-4419-9614-a6f2e4cff39b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

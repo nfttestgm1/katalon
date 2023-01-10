@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Back_to_Wallet_Home</name>
+   <tag></tag>
+   <elementGuidId>16ffef38-eef4-4a9c-a798-edd9b6cf5b87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-jwav6u</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Back to Wallet Home')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e38d382c-2443-46ff-b72e-b96c8ce4fe4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-jwav6u</value>
+      <webElementGuid>e0579f93-a58f-4b93-a893-89e9734d6b48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back to Wallet Home</value>
+      <webElementGuid>cb517da4-ad5b-4bc0-800b-661424a2c009</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-50on1g&quot;]/div[@class=&quot;css-1vyctbq&quot;]/div[@class=&quot;css-25zip3&quot;]/div[@class=&quot;css-c282wx&quot;]/div[@class=&quot;css-0&quot;]/div[@class=&quot;css-k008qs&quot;]/div[@class=&quot;css-h734nn&quot;]/div[@class=&quot;css-1xa07se&quot;]/div[@class=&quot;css-jwav6u&quot;]</value>
+      <webElementGuid>958dbf7d-10c1-44ae-8417-30c948dbe112</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div/div/div</value>
+      <webElementGuid>638dacc0-f82e-4060-8e33-20e1d978e36f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setting'])[2]/following::div[8]</value>
+      <webElementGuid>6e0283d3-a626-412b-a05f-76eba4ab54f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discovery'])[1]/following::div[13]</value>
+      <webElementGuid>3e7d647a-177d-4409-9843-23f21f2a524d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Item 1155 - 14/12 - 1 (12649)'])[1]/preceding::div[3]</value>
+      <webElementGuid>3f5be739-eee7-40ff-9f91-75d51cfc09a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div</value>
+      <webElementGuid>12a3252a-8b99-4193-bc2c-e11491bcab63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Back to Wallet Home' or . = 'Back to Wallet Home')]</value>
+      <webElementGuid>baf50058-9482-40df-96d5-ee18aa46c821</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

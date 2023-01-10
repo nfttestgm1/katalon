@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buy TG</name>
+   <tag></tag>
+   <elementGuidId>0051724b-a501-4aec-ad75-2d4ae1b9e942</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[15]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.chakra-button.css-2qrvc0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>21478ca8-8c84-4bc7-9ced-f4a230bbe45c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0fb91b9f-28aa-4f2f-a083-8a9fe2868621</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-button css-2qrvc0</value>
+      <webElementGuid>a5d0b512-d6b9-4dab-87bc-9ef03ecb0e82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buy TG</value>
+      <webElementGuid>e4d859e2-f8bd-498c-8be0-38f8f6e2c43c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-1k8t7d9&quot;]/div[@class=&quot;css-1mh151z&quot;]/div[@class=&quot;css-13lsbdg&quot;]/div[@class=&quot;css-3lm6u6&quot;]/div[@class=&quot;css-1ey50ed&quot;]/div[@class=&quot;css-84d43g&quot;]/div[@class=&quot;css-1bvalmt&quot;]/div[@class=&quot;css-1dbme2w&quot;]/button[@class=&quot;chakra-button css-2qrvc0&quot;]</value>
+      <webElementGuid>195e884e-e856-4df5-8286-39bdb5857fe9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[15]</value>
+      <webElementGuid>68ada32b-4219-4ca2-823f-2ce4f2f89f19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div[2]/div[2]/div[2]/div/button</value>
+      <webElementGuid>865cca4e-2fbd-4286-98ca-2c18f04f4fa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbl -'])[1]/following::button[1]</value>
+      <webElementGuid>52cb8484-d333-4684-a0d4-f7a14bbb1c14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Confirmation'])[1]/following::button[1]</value>
+      <webElementGuid>53246920-d4e9-4051-8024-cb111b5f0c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Avbl -'])[2]/preceding::button[1]</value>
+      <webElementGuid>871a6595-8f22-4b9d-aa7c-a12dd0b9bb9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Buy']/parent::*</value>
+      <webElementGuid>0f217304-13c6-40d6-9df1-75150d5e4827</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[2]/div/button</value>
+      <webElementGuid>b4dffb53-0f80-42a0-b7eb-b57f67f771b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Buy TG' or . = 'Buy TG')]</value>
+      <webElementGuid>8eca2a6a-3566-4817-af44-3eb2c8622c46</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

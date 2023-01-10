@@ -64,6 +64,41 @@ public class GlobalVariable {
      */
     public static Object sampleCollectionName
      
+    /**
+     * <p></p>
+     */
+    public static Object valueToSendStar
+     
+    /**
+     * <p></p>
+     */
+    public static Object DEX_url_dev
+     
+    /**
+     * <p></p>
+     */
+    public static Object WEB3_url_dev
+     
+    /**
+     * <p></p>
+     */
+    public static Object loginEmail
+     
+    /**
+     * <p></p>
+     */
+    public static Object loginUsername
+     
+    /**
+     * <p></p>
+     */
+    public static Object globalDelayTime
+     
+    /**
+     * <p></p>
+     */
+    public static Object token_amount
+     
 
     static {
         try {
@@ -82,6 +117,13 @@ public class GlobalVariable {
             priceToSell = selectedVariables['priceToSell']
             priceToBuyNow = selectedVariables['priceToBuyNow']
             sampleCollectionName = selectedVariables['sampleCollectionName']
+            valueToSendStar = selectedVariables['valueToSendStar']
+            DEX_url_dev = selectedVariables['DEX_url_dev']
+            WEB3_url_dev = selectedVariables['WEB3_url_dev']
+            loginEmail = selectedVariables['loginEmail']
+            loginUsername = selectedVariables['loginUsername']
+            globalDelayTime = selectedVariables['globalDelayTime']
+            token_amount = selectedVariables['token_amount']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

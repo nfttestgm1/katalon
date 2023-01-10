@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Done</name>
+   <tag></tag>
+   <elementGuidId>8bf263a2-a0b0-4ffc-bd1b-727e55f7020a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Done' or . = 'Done')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-l8xirw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[starts-with(@class, 'chakra-input__right-element')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>26a14de5-7c96-49f6-8a50-5a19bff170e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-l8xirw</value>
+      <webElementGuid>e4bfb6fb-7bd2-4c0a-810c-4e207cd0e7c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Done</value>
+      <webElementGuid>c0deb66b-cb8e-4a7f-8c29-fcb241a65852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-50on1g&quot;]/div[@class=&quot;css-1vyctbq&quot;]/div[@class=&quot;css-25zip3&quot;]/div[@class=&quot;css-1ksbb1k&quot;]/div[@class=&quot;css-18s4k7b&quot;]/div[@class=&quot;css-kodu7a&quot;]/div[@class=&quot;css-mdiws3&quot;]/div[@class=&quot;css-1jlm2ug&quot;]/div[@class=&quot;css-1v2y63i&quot;]/div[@class=&quot;css-0&quot;]/div[@class=&quot;css-s20m49&quot;]/div[@class=&quot;chakra-input__group css-4302v8&quot;]/div[@class=&quot;chakra-input__right-element css-5dx5df&quot;]/div[@class=&quot;css-l8xirw&quot;]</value>
+      <webElementGuid>46dc2608-2fee-4172-b1e8-258e7667df4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>61bc7313-4bc5-4fe5-af39-caf308728be1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setting'])[2]/following::div[13]</value>
+      <webElementGuid>9a0f039a-70b0-42a1-81c9-3644f6eab42d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discovery'])[1]/following::div[18]</value>
+      <webElementGuid>c7d1a7ab-f14e-44b7-8c72-0fc487d8eeb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Address Book'])[1]/preceding::div[2]</value>
+      <webElementGuid>5e7020a0-cc04-47c7-a054-eb76178fb69d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[1]/preceding::div[4]</value>
+      <webElementGuid>e3b77cf2-288c-48a0-a52c-7745b1cc8b9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Done']/parent::*</value>
+      <webElementGuid>dea4a499-b360-458b-9df0-b1068304ffbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>a4249071-6e4d-4315-9d0b-91d6ced74577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Done' or . = 'Done')]</value>
+      <webElementGuid>0de23cdf-81e8-4417-93fe-945dff0c0fa9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

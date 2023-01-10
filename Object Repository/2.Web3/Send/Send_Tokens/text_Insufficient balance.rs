@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>text_Insufficient balance</name>
+   <tag></tag>
+   <elementGuidId>89f02108-928a-46c9-b178-7848da207ed1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='token_errormessage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#token_errormessage</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7cd6cc85-b60f-4bdc-b161-0a42b22e0aa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-19owgcs</value>
+      <webElementGuid>d0c24858-6d7f-4328-b3e0-2e2bce984e7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>token_errormessage</value>
+      <webElementGuid>a3e29f0e-d1cc-4c14-b494-91ed09c05cce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Insufficient balance</value>
+      <webElementGuid>3f73676f-cf05-46d6-96c1-2d0b8a2b79c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;token_errormessage&quot;)</value>
+      <webElementGuid>d3e80840-e264-40b7-b746-82e29d182f07</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//p[@id='token_errormessage']</value>
+      <webElementGuid>ea4ee864-1556-4089-b5ca-9b18949d6c95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div/div/div/div/div/div[2]/p[2]</value>
+      <webElementGuid>bbbca068-45a6-420c-957d-021c16701396</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use Max'])[1]/following::p[1]</value>
+      <webElementGuid>1b63d1b0-060a-4979-900e-d1f6df19e5c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Balance'])[1]/preceding::p[1]</value>
+      <webElementGuid>06815e67-7097-43d2-90aa-fc96d5b0d9bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Estimated Gas Fee'])[1]/preceding::p[1]</value>
+      <webElementGuid>c162a9f8-33ac-431f-b075-587a46aea258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Insufficient balance']/parent::*</value>
+      <webElementGuid>c4b288bc-18f6-48fe-8194-dc94a30ac5c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>69085375-eea8-4ae7-a913-277bf3f91d33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[@id = 'token_errormessage' and (text() = 'Insufficient balance' or . = 'Insufficient balance')]</value>
+      <webElementGuid>ca292c3f-2325-4b55-8359-583762604e67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Back to Wallet Home</name>
+   <tag></tag>
+   <elementGuidId>e3b0081c-df58-4aab-a7d1-88744e56077a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Back to Wallet Home')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-1pi8mdu</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Back to Wallet Home' or . = 'Back to Wallet Home')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0e3fc3f9-9d77-4697-b092-758ab01fa54f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1pi8mdu</value>
+      <webElementGuid>a3317974-7459-4e44-9e0c-3dc2e625e4a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Back to Wallet Home</value>
+      <webElementGuid>aa89dd3f-4120-43d0-a1af-b9f1554856c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;css-50on1g&quot;]/div[@class=&quot;css-1vyctbq&quot;]/div[@class=&quot;css-25zip3&quot;]/div[@class=&quot;css-1eoqo6w&quot;]/div[@class=&quot;css-1rvlbf0&quot;]/div[@class=&quot;css-1j4yp3v&quot;]/div[@class=&quot;css-7w6bjy&quot;]/div[@class=&quot;css-1vben6a&quot;]/div[@class=&quot;css-1pi8mdu&quot;]</value>
+      <webElementGuid>c534010b-2b95-4543-ba7e-7060428a143e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[4]/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>4c3b9f46-5ab5-46aa-94e5-400fa59ed58b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Setting'])[2]/following::div[10]</value>
+      <webElementGuid>16b4a293-0660-4972-b938-5be0570f0cc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discovery'])[1]/following::div[15]</value>
+      <webElementGuid>8da10eeb-930c-447b-8d96-b39194396005</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC1'])[1]/preceding::div[2]</value>
+      <webElementGuid>2c52ab3f-eb43-4265-becf-afe9caf2dfdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QC1'])[2]/preceding::div[3]</value>
+      <webElementGuid>4c07de95-6800-429a-b804-4cde9b04c0d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Back to Wallet Home']/parent::*</value>
+      <webElementGuid>90050e75-c52c-47fd-bb57-5e9e7ba13316</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>a33b6b78-d352-4bca-83e1-3558bf884dcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Back to Wallet Home' or . = 'Back to Wallet Home')]</value>
+      <webElementGuid>2f4f9ac2-114d-415c-a132-5e9a78dca6ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

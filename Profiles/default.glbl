@@ -59,4 +59,39 @@
       <initValue>'NFT_Collection_1'</initValue>
       <name>sampleCollectionName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0.1'</initValue>
+      <name>valueToSendStar</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://dex.dev.yoverse.io/dex'</initValue>
+      <name>DEX_url_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://web3.dev.yoverse.io'</initValue>
+      <name>WEB3_url_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'manhtt2@email.testing.vng.com.vn'</initValue>
+      <name>loginEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'manhtt2'</initValue>
+      <name>loginUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>globalDelayTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>token_amount</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
