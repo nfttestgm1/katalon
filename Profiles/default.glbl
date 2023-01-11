@@ -61,12 +61,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0.1'</initValue>
+      <initValue>0.1</initValue>
       <name>valueToSendStar</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://dex.dev.yoverse.io/dex'</initValue>
+      <initValue>'https://dex.dev.yoverse.io/dex'</initValue>
       <name>DEX_url_dev</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

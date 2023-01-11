@@ -189,7 +189,7 @@ System.out.println('amountAfterBuyTokenDouble: ' + amountAfterBuyTokenDouble)
 //WebUI.verifyEqual(amountBeforeBuyTokenDouble - (GlobalVariable.token_amount * currentMarketPrice_TG_Double), amountAfterBuyTokenDouble)
 WebUI.verifyEqual(amountBeforeBuyTokenDouble - GlobalVariable.token_amount*8.54, amountAfterBuyTokenDouble)
 
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.closeBrowser()
 //

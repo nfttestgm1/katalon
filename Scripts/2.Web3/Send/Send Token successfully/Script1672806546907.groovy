@@ -22,23 +22,25 @@ WebUI.callTestCase(findTestCase('2.Web3/BeforeTest/OpenChromeProfiles'), [:], Fa
 
 WebUI.navigateToUrl('https://web3.dev.yoverse.io/wallet')
 
-//WebUI.waitForElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_Star'), 30)
-//WebUI.waitForPageLoad(30, FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(3)
 
 String beforeSendString = WebUI.getText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_totalBalance'))
 System.out.println('beforeSendString: ' +beforeSendString)
 
-//int beforeSendInt = Integer.parseInt(beforeSendString)
-//double beforeSendDouble = beforeSendString.toDouble()
 double beforeSendDouble = Double.parseDouble(beforeSendString.replaceAll(",", ""));
 
 // - GlobalVariable.valueToSendStar
 System.out.println('beforeSendDouble: ' +beforeSendDouble)
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/tab_tokens'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_home_token_0'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.verifyElementVisible(findTestObject('2.Web3/Send/Send_Tokens/section_Back to Wallet Home'),FailureHandling.STOP_ON_FAILURE)
 
@@ -47,7 +49,11 @@ WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Sen
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/section_Send To'),FailureHandling.STOP_ON_FAILURE)
 
 //input invalid username
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_Setting_username_input'), 'mn')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Done'), FailureHandling.STOP_ON_FAILURE)
 
@@ -57,22 +63,22 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_To
 
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
-//clearText not work
-//WebUI.clearText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_Setting_username_input'))
-
 //ctrl A + back thi moi work
+WebUI.delay(GlobalVariable.globalDelayTime)
 WebUI.sendKeys(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_Setting_username_input'), Keys.chord(Keys.CONTROL,'a'))
 WebUI.sendKeys(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_Setting_username_input'), Keys.chord(Keys.BACK_SPACE))
 
 //input valid username
 WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_Setting_username_input'), 'manhtt')
 
-//WebUI.verifyElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Done'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Done'), 5)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Done'))
 
-//WebUI.verifyElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), 5)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'))
@@ -80,6 +86,8 @@ WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Nex
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/section_Amount'), FailureHandling.STOP_ON_FAILURE)
 
 //input insufficient amount
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_token_input'), '0.0')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/text_Insufficient balance'),FailureHandling.STOP_ON_FAILURE)
@@ -87,9 +95,12 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_To
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
 //input valid amount
-WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_token_input'), GlobalVariable.valueToSendStar)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
-//WebUI.verifyElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/input_token_input'), GlobalVariable.valueToSendStar.toString())
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'), 5)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_Next'))
@@ -100,7 +111,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_To
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_total_paid'),FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.verifyElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_ConfirmToSend'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_ConfirmToSend'), 5)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/button_ConfirmToSend'))
@@ -109,19 +121,14 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_To
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/text_accountname'),FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.waitForElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_Star'), 30)
 WebUI.waitForPageLoad(30, FailureHandling.STOP_ON_FAILURE)
 
 String afterSendString = WebUI.getText(findTestObject('Object Repository/2.Web3/Send/Send_Tokens/div_totalBalance'))
 System.out.println('afterSendString: ' +afterSendString)
 
-//int afterSendInt = Integer.parseInt(afterSendString)
-//int afterSendInt = afterSendString.toInteger()
-//double afterSendDouble = afterSendString.toDouble()
 double afterSendDouble = Double.parseDouble(afterSendString.replaceAll(",", ""));
 System.out.println('afterSendDouble: ' +afterSendDouble)
 
-//WebUI.verifyMatch(afterSendDouble, beforeSendDouble, false)
+WebUI.verifyEqual(beforeSendDouble - GlobalVariable.valueToSendStar, afterSendDouble)
 
 WebUI.closeBrowser()
-
