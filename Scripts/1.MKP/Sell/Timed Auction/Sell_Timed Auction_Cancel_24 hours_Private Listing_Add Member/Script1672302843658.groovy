@@ -24,44 +24,122 @@ WebUI.callTestCase(findTestCase('1.MKP/BeforeTest/OpenChromeProfiles'), [:], Fai
 
 WebUI.navigateToUrl(GlobalVariable.MKP_url)
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/img_header_profile_avatar')), 5)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/img_header_profile_avatar'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_My Profile'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Owned'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Sell'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Timed Auction'))
 
 //select highest bidder
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Method'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Sell to the highest bidder'))
 
 //Duration
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_timed-auction-duration'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_dateRange'))
+
 //select 24 hours from dropdown
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Date Range_24 hours'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Confirm_Duration'))
 
 //Set Price to sell
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/1.MKP/Sell/input_price-amount'), GlobalVariable.priceToSell)
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Include Buy Now option'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Include Buy Now option'))
 
 //Private Listing
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Private_Listing'))
+
 //Add Member
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Manage member'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/1.MKP/Sell/input_Wallet Address or Username'), 'lamldt')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Add member'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Done'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/button_Place on market')), 5)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
-WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
+
+/*
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.closeWindowIndex(1)
+
+//WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+*/
+
+//Buy success
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'), 5)
+
+WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+//
 
 WebUI.closeBrowser()

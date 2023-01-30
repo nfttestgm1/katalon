@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>dantri</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>bcbc0ff4-bf35-48c6-8e96-30e0823cc9ba</testSuiteGuid>
+   <testCaseLink>
+      <guid>3d646318-74cd-46e0-9ddb-141a50b455f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/0.Study/dantri</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b9cbf15b-4183-41f5-987d-1cd3bd780592</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Dantri</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b9cbf15b-4183-41f5-987d-1cd3bd780592</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user_to_fill</value>
+         <variableId>4a9d2dd8-96cc-4c61-beae-6adeca5ef5e9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9cbf15b-4183-41f5-987d-1cd3bd780592</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email_to_fill</value>
+         <variableId>a1c97ad8-d5f8-433b-a115-0a1407f9bad9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9cbf15b-4183-41f5-987d-1cd3bd780592</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_to_fill</value>
+         <variableId>eba4f4f4-8076-41a3-aa71-307878e23fa2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9cbf15b-4183-41f5-987d-1cd3bd780592</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>text_to_fill</value>
+         <variableId>73367ba7-a18f-419d-902b-8fe40a6b6bd3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

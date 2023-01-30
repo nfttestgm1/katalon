@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ng k_1</name>
+   <tag></tag>
+   <elementGuidId>def2fbf7-93ac-49f1-a402-c4f894e05e77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.auth-submit</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d08565e4-4c9a-4fa7-8e58-2c0da7b5dca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>49a49844-5dc3-426e-93f8-9d3b43eae101</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>auth-submit</value>
+      <webElementGuid>231f9327-9506-4609-aa4a-788f2bf7da2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Đăng ký</value>
+      <webElementGuid>e7513d94-21f6-444a-8f9b-cb34363d2183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/div[4]/div[@class=&quot;auth-wrap active&quot;]/div[@class=&quot;auth-container&quot;]/div[@class=&quot;auth-panel&quot;]/div[@class=&quot;auth-tab&quot;]/form[@class=&quot;auth-form&quot;]/div[@class=&quot;auth-control&quot;]/button[@class=&quot;auth-submit&quot;]</value>
+      <webElementGuid>4f8d1332-89f3-4293-84c8-4e9127a7c0f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>fc2831e7-a1c5-408b-aeb4-d40fb43c9c50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mật khẩu'])[1]/following::button[2]</value>
+      <webElementGuid>10481a49-102f-4d7c-abd2-3ed3401ad088</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>c9b69f3f-3d48-430b-95ce-722545203f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Đăng ký' or . = 'Đăng ký')]</value>
+      <webElementGuid>f98e2722-b3ae-4715-ae3d-4242d6ba8637</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

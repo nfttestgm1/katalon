@@ -21,11 +21,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.WEB3_url_dev)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_email'), GlobalVariable.loginEmail)
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Register/button_Continue_Submit'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_1'), '9')
 
@@ -46,6 +54,7 @@ String username = WebUI.getText(findTestObject('Object Repository/2.Web3/Registe
 System.out.println("username: " + username)
 
 WebUI.verifyMatch(username, GlobalVariable.loginUsername, false)
-WebUI.delay(3)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.closeBrowser()

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Tym_bai_viet</name>
+   <tag></tag>
+   <elementGuidId>a81978cd-39e4-4af9-8641-1e6c32197d61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[4]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fJs66jNR2cOFxqUNKcvw.uFHqgSUZPev8C2khdz5h</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>292d80d1-2267-43f8-af00-d95a3d4ecb6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fJs66jNR2cOFxqUNKcvw uFHqgSUZPev8C2khdz5h</value>
+      <webElementGuid>74a826f8-4b72-45a1-807d-7b7ccb522237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/main[@class=&quot;body container&quot;]/div[@class=&quot;contest-entries__container&quot;]/div[@class=&quot;contest-entries__interactive&quot;]/div[1]/div[@class=&quot;lazyload-wrapper&quot;]/div[@class=&quot;rOhzhvOe5EH8AFrzBVgh&quot;]/div[@class=&quot;JIVUv9eJ_aspOQorMdI4&quot;]/div[@class=&quot;TQI4j7cSKJZzBEgix2BD&quot;]/button[@class=&quot;PcdZ8kUNXUSUHBUqTw3I&quot;]/i[@class=&quot;fJs66jNR2cOFxqUNKcvw uFHqgSUZPev8C2khdz5h&quot;]</value>
+      <webElementGuid>6477de78-684d-42ed-bce3-b45e72ecb15e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/i</value>
+      <webElementGuid>2586ea73-4f9b-4117-bf9e-ca5a79d436f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,16 +6,16 @@
    <elementGuidId>2e3bb125-2a79-44a5-9a8a-db134a71f6e7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'nft-card-place-bid-button-88' and (text() = 'Sell' or . = 'Sell')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//button[starts-with(@id, 'nft-card-place-bid-button')]</value>
+         <value>//button[starts-with(@id, 'nft-card-place-bid-button') and text()='Sell']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#nft-card-place-bid-button-88</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @id = 'nft-card-place-bid-button-88' and (text() = 'Sell' or . = 'Sell')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>18f57a50-5b10-490d-ba3e-41740685200a</webElementGuid>
+      <webElementGuid>5058a104-ce4a-4b9c-ba81-b50191a28d7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>04990904-8716-4f5f-884a-f99e79779039</webElementGuid>
+      <webElementGuid>efc56b7b-1e3f-4a28-a535-bf506d742a3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button mkp-style-1nxou7-CTA</value>
-      <webElementGuid>72ca430c-29ba-4e79-91ec-5ceadcd9a90d</webElementGuid>
+      <webElementGuid>ef3030b4-bf78-4529-a46c-6d1ceaecc72e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nft-card-place-bid-button-88</value>
-      <webElementGuid>257a1497-58f4-42d0-bb51-6542aa7a3e37</webElementGuid>
+      <webElementGuid>555ed6d5-f764-4183-a5b9-1671bb8971e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sell</value>
-      <webElementGuid>4e3a4e44-9e7e-43ae-aa2b-2e7fec1d34b5</webElementGuid>
+      <webElementGuid>0d8cf696-3da8-44d9-9dcf-9b820df88537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nft-card-place-bid-button-88&quot;)</value>
-      <webElementGuid>99eace7c-c086-4205-bf99-346f7e058058</webElementGuid>
+      <webElementGuid>5aeb0ab2-a4d9-459d-b59e-9abd98bbaf4a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='nft-card-place-bid-button-88']</value>
-      <webElementGuid>c72a0653-007e-47af-860c-d4940e3318b4</webElementGuid>
+      <webElementGuid>c58d8978-432b-4f47-a314-50e1cb07cf34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='tabs-:r85:--tabpanel-1']/div/div/div/div/div/div/div/div/div[2]/div[2]/div[2]/div/button</value>
-      <webElementGuid>96a30f55-7c40-4c2b-bc5c-ddc5b3878ac9</webElementGuid>
+      <webElementGuid>5ec163ce-97d5-41ab-9920-153e8e520bd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::button[1]</value>
-      <webElementGuid>77ca1541-d489-445a-8796-c653cec08f82</webElementGuid>
+      <webElementGuid>20700897-4142-487b-879e-fa36523030d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not For Sale'])[3]/preceding::button[1]</value>
-      <webElementGuid>7a184763-45f8-416c-bfd7-9b8a1a6f3c95</webElementGuid>
+      <webElementGuid>cdb35e7f-9cba-4cec-9f9c-e66197959060</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='In Wallet'])[3]/preceding::button[1]</value>
-      <webElementGuid>0f57f2f2-2681-413f-893c-3178e96db5a0</webElementGuid>
+      <webElementGuid>1c7d6008-38d2-497b-bb53-debad30ff462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sell']/parent::*</value>
-      <webElementGuid>abfae0c8-bb7d-42d7-b8ec-371de6834c61</webElementGuid>
+      <webElementGuid>b05aee19-3db1-45ef-a9ec-c30a7f13243f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/button</value>
-      <webElementGuid>cdc988d3-3717-4ed7-b788-d902d605e675</webElementGuid>
+      <webElementGuid>5b6c66d9-3387-40e1-8ef7-988ee2a14abf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'nft-card-place-bid-button-88' and (text() = 'Sell' or . = 'Sell')]</value>
-      <webElementGuid>b61447b9-fe7e-4af9-9ced-0b685e517b76</webElementGuid>
+      <webElementGuid>cad063bb-2360-441f-8da3-26d93adeb578</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

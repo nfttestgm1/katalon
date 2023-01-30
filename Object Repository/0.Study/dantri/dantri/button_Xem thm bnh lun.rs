@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Xem thm bnh lun</name>
+   <tag></tag>
+   <elementGuidId>380ea3d0-775e-4a05-ae50-d3263308d7cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.comment-more</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[12]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b0a3b485-b9fd-4cef-a87e-dc028dd83985</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bcbf9650-0f80-4bbd-aaf3-60045efc72ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>comment-more</value>
+      <webElementGuid>30c3bc9d-7939-4974-9076-ad353b4268e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Xem thêm bình luận</value>
+      <webElementGuid>6ec5a8bc-45a6-472e-adbe-1acacbcf25d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/main[@class=&quot;body container&quot;]/div[@class=&quot;contest-entries__container&quot;]/div[3]/div[@class=&quot;comment-wrap mt-30&quot;]/div[@class=&quot;comment-container&quot;]/button[@class=&quot;comment-more&quot;]</value>
+      <webElementGuid>6851389a-7fa3-4584-9748-89d4d51b3f4d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>a0cd1151-4ff7-4577-8a1b-0112d42c4cda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trả lời'])[3]/following::button[1]</value>
+      <webElementGuid>34e5093f-21fd-432c-a534-a8e6d07c132b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xem thêm bài dự thi'])[1]/preceding::button[1]</value>
+      <webElementGuid>0bd15550-bfa8-49f6-9da1-0b11fa95b027</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Xem thêm bình luận']/parent::*</value>
+      <webElementGuid>ada7f35f-f361-46db-90dc-6d30c12950cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>ca95ad7d-5adf-4b23-b6df-33bf17e2769d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Xem thêm bình luận' or . = 'Xem thêm bình luận')]</value>
+      <webElementGuid>7496bc1e-9042-49bb-8995-aca77436757f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

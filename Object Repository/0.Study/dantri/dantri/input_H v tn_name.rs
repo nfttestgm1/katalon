@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_H v tn_name</name>
+   <tag></tag>
+   <elementGuidId>acc50eb5-fd97-472c-9fdd-64512cf761a3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='name']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;name&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0ef7eacd-59a8-4cfb-915e-cbdffef4bae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>auth-input </value>
+      <webElementGuid>dcf26c51-b50f-4844-a8c3-d084197ec1dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>47f4a165-8f4c-48be-a1cd-0920c89983bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>80a16879-52a5-48be-a544-66cfc2f8194c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Họ và tên</value>
+      <webElementGuid>b72a0bb8-5658-4f30-8795-2b96aa0274fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/div[4]/div[@class=&quot;auth-wrap active&quot;]/div[@class=&quot;auth-container&quot;]/div[@class=&quot;auth-panel&quot;]/div[@class=&quot;auth-tab&quot;]/form[@class=&quot;auth-form&quot;]/div[@class=&quot;auth-control&quot;]/div[@class=&quot;auth-row&quot;]/input[@class=&quot;auth-input&quot;]</value>
+      <webElementGuid>57cb1ca6-92b3-48db-9eec-db50a845d854</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='name']</value>
+      <webElementGuid>d4616d23-c87b-45a1-920b-7cbc7ed88261</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>7067c318-1223-40a7-8d20-77b1646bdee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @name = 'name' and @placeholder = 'Họ và tên']</value>
+      <webElementGuid>591dba59-7354-4c7c-8423-031b7fc78244</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

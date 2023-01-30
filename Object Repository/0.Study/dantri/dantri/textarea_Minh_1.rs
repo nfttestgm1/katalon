@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Minh_1</name>
+   <tag></tag>
+   <elementGuidId>6aefcb89-45e7-4bba-b340-c6e0ea0a3989</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[2]/following::textarea[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a83ff453-3888-422d-ad6f-9f35756d760f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>textarea </value>
+      <webElementGuid>1423ba9d-bbbf-4175-8e39-147576aa999c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Bạn nghĩ gì về tin này?</value>
+      <webElementGuid>5cb692f7-6a6f-4203-bf93-cf615d3a698b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Minh·</value>
+      <webElementGuid>73973049-3710-47bd-94d9-0269538d9ced</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/main[@class=&quot;body container&quot;]/div[@class=&quot;contest-entries__container&quot;]/div[3]/div[@class=&quot;comment-wrap mt-30&quot;]/div[@class=&quot;comment-box&quot;]/textarea[@class=&quot;textarea&quot;]</value>
+      <webElementGuid>e2319d33-ef4f-4be7-92ed-dbaa36e02b5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng xuất'])[2]/following::textarea[1]</value>
+      <webElementGuid>0cb41bca-3673-41eb-9c79-d7e80fdd6ac6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='manh'])[2]/following::textarea[1]</value>
+      <webElementGuid>14035788-d92a-4201-a496-ea13004663ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ý kiến của bạn sẽ được xét duyệt trước khi đăng. Xin vui lòng gõ tiếng Việt có dấu'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>fb67d67f-9178-46ac-95fc-44182cf9ba6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gửi bình luận'])[1]/preceding::textarea[1]</value>
+      <webElementGuid>6c02171f-c519-4807-9dae-5aafc5224241</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Minh·']/parent::*</value>
+      <webElementGuid>4adb9efe-07aa-414c-8b0e-3d71b073d78b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>0669a1ce-8166-44d4-8894-da0c8376aba1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Bạn nghĩ gì về tin này?' and (text() = 'Minh·' or . = 'Minh·')]</value>
+      <webElementGuid>26d8fbd4-1a1f-44f1-8e8e-71ceeb818316</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

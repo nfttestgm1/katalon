@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dantri</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>980543d7-86b5-43ec-aceb-857d54083a93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a9d2dd8-96cc-4c61-beae-6adeca5ef5e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1c97ad8-d5f8-433b-a115-0a1407f9bad9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eba4f4f4-8076-41a3-aa71-307878e23fa2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>73367ba7-a18f-419d-902b-8fe40a6b6bd3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'NGUYỄN PHÚC HUY1\r\n'</defaultValue>
+      <description></description>
+      <id>4a9d2dd8-96cc-4c61-beae-6adeca5ef5e9</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'nguyenphuchuy1@gmail.com'</defaultValue>
+      <description></description>
+      <id>a1c97ad8-d5f8-433b-a115-0a1407f9bad9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'3e4rF6PS'</defaultValue>
+      <description></description>
+      <id>eba4f4f4-8076-41a3-aa71-307878e23fa2</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rất tự hào!'</defaultValue>
+      <description></description>
+      <id>73367ba7-a18f-419d-902b-8fe40a6b6bd3</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

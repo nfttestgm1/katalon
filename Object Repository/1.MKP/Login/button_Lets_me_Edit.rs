@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lets_me_Edit</name>
+   <tag></tag>
+   <elementGuidId>5b7f84a8-0f51-4663-9e18-09c9e6a9b656</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'Let’s me Edit' or . = 'Let’s me Edit')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.chakra-button.css-16tyxzg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'Let’s me Edit')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f524001a-8aed-4f8a-a061-411c81166eed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>06ab4fd0-819b-452f-bf70-972e8f9c696b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-button css-16tyxzg</value>
+      <webElementGuid>cbbf0ed8-2838-4575-9fdc-5c2ba441f9c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Let’s me Edit</value>
+      <webElementGuid>afb06f1d-ac85-42e0-a53c-e73a7da24ca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal-:R1b9f6:&quot;)/footer[@class=&quot;chakra-modal__footer css-krkhq&quot;]/button[@class=&quot;chakra-button css-16tyxzg&quot;]</value>
+      <webElementGuid>d63b59ad-3624-4413-b294-f0499f9ade62</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[20]</value>
+      <webElementGuid>b6cfe3b0-90a2-42f3-b90c-89cce991bf0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='chakra-modal-:R1b9f6:']/footer/button</value>
+      <webElementGuid>b5ff3932-9c54-4899-bf58-02f7ea744fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::button[2]</value>
+      <webElementGuid>6fcfebb9-53b5-4081-a648-96c8c222a7a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy'])[1]/following::button[2]</value>
+      <webElementGuid>4c4fa656-5656-4763-93e4-ea3a1b14381e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::button[1]</value>
+      <webElementGuid>29f24bec-3c5d-480d-a6c7-7e6876d67ae4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Let’s me Edit']/parent::*</value>
+      <webElementGuid>9dc87665-4e66-4979-9416-74e83a219961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/button</value>
+      <webElementGuid>4b629fb0-a0c4-4683-9d67-a854a87926ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Let’s me Edit' or . = 'Let’s me Edit')]</value>
+      <webElementGuid>e7a91bfe-da39-4dca-9c91-d485d23b5b23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -21,34 +21,56 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.WEB3_url_dev)
 
 String ts = System.currentTimeMillis().toString()
 
 System.out.println('ts: ' +ts)	
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('2.Web3/Register/input_email'), 'reg' +ts + '@email.testing.vng.com.vn')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Register/button_Continue_Submit'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_1'), '9')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_2'), '9')
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_3'), '9')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_4'), '9')
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_5'), '9')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_Enter 6 digit verification code_6'), '9')
 
 usernameToSet = 'reg' + ts
 System.out.println("username to set: " + usernameToSet)
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Register/input_username'), usernameToSet)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Register/button_Continue_Button'), 5)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.click(findTestObject('Object Repository/2.Web3/Register/button_Continue_Button'))
 
@@ -59,6 +81,6 @@ System.out.println("username: " + username)
 
 WebUI.verifyMatch(username, usernameToSet, false)
 
-WebUI.delay(3)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.closeBrowser()

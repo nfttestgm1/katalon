@@ -29,6 +29,20 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/3.DEX/Login/avatar_
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/3.DEX/Login/button_Login_Web3_Auth'), 10, FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/div_DEX'), 5)
+//
+//WebUI.delay(GlobalVariable.globalDelayTime)
+//
+//WebUI.click(findTestObject('Object Repository/3.DEX/Login/div_DEX'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/tg_exchange'), 5)
+
+WebUI.click(findTestObject('Object Repository/3.DEX/Login/tg_exchange'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 //get total amount before send token
 String amountBeforeBuyToken = WebUI.getText(findTestObject('Object Repository/3.DEX/Login/total_user_amount'), FailureHandling.STOP_ON_FAILURE)
 
@@ -45,19 +59,14 @@ double amountBeforeBuyTokenDouble = Double.parseDouble(amountBeforeBuyTokenStrin
 
 System.out.println('amountBeforeBuyTokenDouble: ' + amountBeforeBuyTokenDouble)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/div_DEX'), 5)
 
-WebUI.delay(GlobalVariable.globalDelayTime)
 
-WebUI.click(findTestObject('Object Repository/3.DEX/Login/div_DEX'))
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/tg_exchange'), 5)
-
-WebUI.delay(GlobalVariable.globalDelayTime)
-
-WebUI.click(findTestObject('Object Repository/3.DEX/Login/tg_exchange'))
-
-//WebUI.setText(findTestObject('Object Repository/3.DEX/Login/input_price'), '10')
+//get current exchange rate of TF
+String currentMarketPrice_TG = WebUI.getText(findTestObject('Object Repository/3.DEX/TG_YUSD/tg_exchange_rate'), FailureHandling.STOP_ON_FAILURE)
+String[] arrOfStr1 = currentMarketPrice_TG.split(' ', 2)
+System.out.println('currentMarketPrice_TG: ' + (arrOfStr1[1]))
+double currentMarketPrice_TG_Double = Double.parseDouble((arrOfStr1[1]).replaceAll(',', ''))
+System.out.println('currentMarketPrice_TG_Double: ' + currentMarketPrice_TG_Double)
 
 /*get current market price
 String currentMarketPrice_TG = WebUI.getText(findTestObject('Object Repository/3.DEX/Login/market_price_tg'), FailureHandling.STOP_ON_FAILURE)
@@ -100,13 +109,30 @@ WebUI.delay(GlobalVariable.globalDelayTime)
 WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_ReviewToConfirm'))
 
 //Handle web3 window after Confirm - Cancel
-WebUI.delay(5)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.switchToWindowIndex(1)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Cancel'), 5)
+
+WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Cancel'))
+
+/*
+//Xu li neu nhu Cancel hien lai lan 2
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.switchToWindowIndex(1)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Cancel'), 5)
 
 WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Cancel'))
+
+// End of Xu li neu nhu Cancel hien lai lan 2
+*/
 
 /*Thi thoang sau khi Cancel van hien Cancel lan 2
 WebUI.delay(GlobalVariable.globalDelayTime)
@@ -136,31 +162,36 @@ WebUI.delay(GlobalVariable.globalDelayTime)
 WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_buyTG'))
 
 //Handle Buy popup - Confirm
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_ReviewToConfirm'), 5)
 
 WebUI.delay(GlobalVariable.globalDelayTime)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_ReviewToConfirm'), 5)
 
 WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_ReviewToConfirm'))
 
 //Handle web3 window after Confirm - Confirm web3
-WebUI.delay(2)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.switchToWindowIndex(1)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Confirm_Web3_Tnx'), 5)
-
 WebUI.delay(GlobalVariable.globalDelayTime)
 
-WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Confirm_Web3_Tnx'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'), 5)
+
+WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'))
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 //Return to DEX main page
 WebUI.switchToWindowTitle('Decentralized Exchange')
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/div_DEX'), 5)
-
 WebUI.delay(GlobalVariable.globalDelayTime)
 
-WebUI.click(findTestObject('Object Repository/3.DEX/Login/div_DEX'))
+WebUI.navigateToUrl(GlobalVariable.DEX_url_dev)
+
+WebUI.navigateToUrl('https://dex.dev.yoverse.io/dex/trading-panel/TG_STAR')
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/3.DEX/Login/svg_loadingTnx'), 10, FailureHandling.OPTIONAL)
 
@@ -179,15 +210,7 @@ double amountAfterBuyTokenDouble = Double.parseDouble(amountAfterBuyTokenString.
 
 System.out.println('amountAfterBuyTokenDouble: ' + amountAfterBuyTokenDouble)
 
-//System.out.println('before: ' + (amountBeforeBuyTokenDouble - GlobalVariable.token_amount*currentMarketPrice_TG_Double))
-//System.out.println('before: ' + (amountBeforeBuyTokenDouble - GlobalVariable.token_amount*8.54))
-//System.out.println('before1: ' +amountBeforeBuyTokenDouble)
-//System.out.println('before2: ' +GlobalVariable.token_amount)
-//System.out.println('before3: ' +currentMarketPrice_TG_Double)
-//System.out.println('after: ' +amountAfterBuyTokenDouble)
-
-//WebUI.verifyEqual(amountBeforeBuyTokenDouble - (GlobalVariable.token_amount * currentMarketPrice_TG_Double), amountAfterBuyTokenDouble)
-WebUI.verifyEqual(amountBeforeBuyTokenDouble - GlobalVariable.token_amount*8.54, amountAfterBuyTokenDouble)
+WebUI.verifyEqual(amountBeforeBuyTokenDouble - GlobalVariable.token_amount*currentMarketPrice_TG_Double, amountAfterBuyTokenDouble)
 
 WebUI.delay(GlobalVariable.globalDelayTime)
 

@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://market.test.yoverse.io'</initValue>
+      <initValue>'https://market.dev.yoverse.io/'</initValue>
       <name>MKP_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -76,12 +76,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'manhtt2@email.testing.vng.com.vn'</initValue>
+      <initValue>'manhtt3@email.testing.vng.com.vn'</initValue>
       <name>loginEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'manhtt2'</initValue>
+      <initValue>'manhtt3'</initValue>
       <name>loginUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -93,5 +93,10 @@
       <description></description>
       <initValue>10</initValue>
       <name>token_amount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://market.dev.yoverse.io/'</initValue>
+      <name>MKP_url_dev</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

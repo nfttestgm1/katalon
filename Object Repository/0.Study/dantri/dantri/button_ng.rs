@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ng</name>
+   <tag></tag>
+   <elementGuidId>6c7c3bdd-1112-420d-a2bb-d82bd7296648</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.p-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gửi bình luận thành công'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c89bc654-b382-4ba7-9379-99ad0f8b80d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-3</value>
+      <webElementGuid>9f8f615d-1201-44a9-88de-7e8b6a32274a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Đóng</value>
+      <webElementGuid>eb9bab00-1edd-400b-b219-2858809ec9cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;lunar-child contest-wrap&quot;]/main[@class=&quot;body container&quot;]/div[@class=&quot;contest-entries__container&quot;]/div[3]/div[@class=&quot;AwIPldlkb9ZFbh6XbpTV&quot;]/div[@class=&quot;undefined kWT7B0cLLt_z3fsHoeut&quot;]/div[@class=&quot;text-center ikNI1kNaxXlvPcqAU5zF QNloTlMzCvVmz0XjMxG4&quot;]/button[@class=&quot;p-3&quot;]</value>
+      <webElementGuid>da053c41-ec09-479d-a88c-53beab0c9135</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gửi bình luận thành công'])[1]/following::button[1]</value>
+      <webElementGuid>122ddc74-34fd-4f3c-b026-4c267e079268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xem thêm bình luận'])[1]/following::button[1]</value>
+      <webElementGuid>16b59711-52fc-4fa1-8d36-fb28c554ad6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xem thêm bài dự thi'])[1]/preceding::button[1]</value>
+      <webElementGuid>654a2fdf-df03-4ef1-8585-09915c16d15e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Đóng']/parent::*</value>
+      <webElementGuid>75d0445e-8fea-4a79-970e-e692170df943</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/button</value>
+      <webElementGuid>786de34e-a23c-4b52-baa5-9c321cac816d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Đóng' or . = 'Đóng')]</value>
+      <webElementGuid>8d62b693-3d26-44c8-8fcc-efca84192673</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

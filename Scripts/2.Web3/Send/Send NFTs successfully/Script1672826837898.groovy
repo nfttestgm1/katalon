@@ -19,55 +19,91 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('2.Web3/BeforeTest/OpenChromeProfiles'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://web3.dev.yoverse.io/wallet')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/tab_NFTs'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/tab_NFTs'))
 
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/item_1155'), 5, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/item_1155'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/div_Back_to_Wallet_Home'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/item_1155'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/item_1155_collection_0'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/div_Back_to_Collectibles'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/item_1155'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Send'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/section_Send To'),FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/input_username'),5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/input_username'), 'manhtt')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Done'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Done'))
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Next'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Next'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/section_Amount'),FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/input_number_of_nfts'),5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.setText(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/input_number_of_nfts'), '1')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Next'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Next'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/section_Confirm'),FailureHandling.STOP_ON_FAILURE)
 
-//can phai delay thi moi work, loi o doan goi chain
-WebUI.delay(1)
+//can phai delay thi moi work, loi o doan goi chain + doi cho Send button visible
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Send_To_Confirm'), 5, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.click(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/button_Send_To_Confirm'))
 
-//WebUI.delay(3)
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/section_Wallet'),FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(1)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/2.Web3/Send/Send_NFTs/text_accountname'),FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(GlobalVariable.globalDelayTime)
 
 WebUI.closeBrowser()
