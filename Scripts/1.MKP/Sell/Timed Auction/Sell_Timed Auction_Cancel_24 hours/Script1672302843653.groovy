@@ -48,7 +48,7 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Private_Listing'))
 //select highest bidder
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Method'))
 
-WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Sell to the highest bidder'))
+WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Sell_to_the_highest_bidder'))
 
 //
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_timed-auction-duration'))
@@ -62,6 +62,9 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Confirm_Duration
 WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/button_Place on market')), 5)
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
 
-WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
+//close popup web3
+WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('1.MKP/Sell/button_Cancel'))
+WebUI.switchToWindowIndex(0)
 
 WebUI.closeBrowser()

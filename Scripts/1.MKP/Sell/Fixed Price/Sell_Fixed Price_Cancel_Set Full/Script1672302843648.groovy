@@ -56,10 +56,13 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Manage member'))
 WebUI.setText(findTestObject('Object Repository/1.MKP/Sell/input_Wallet Address or Username'), 'lamldt')
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Add member'))
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Done'))
-//
 
 WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/button_Place on market')), 5)
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
-WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
+
+//close popup web3
+WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('1.MKP/Sell/button_Cancel'))
+WebUI.switchToWindowIndex(0)
 
 WebUI.closeBrowser()

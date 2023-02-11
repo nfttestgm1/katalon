@@ -94,33 +94,9 @@ WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/butt
 
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
 
-/*
-WebUI.delay(GlobalVariable.globalDelayTime)
-
+//close popup web3
 WebUI.switchToWindowIndex(1)
-
-WebUI.delay(GlobalVariable.globalDelayTime)
-
-WebUI.closeWindowIndex(1)
-
-//WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
-
-WebUI.delay(GlobalVariable.globalDelayTime)
-*/
-
-//Buy success
-WebUI.delay(GlobalVariable.globalDelayTime)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.delay(GlobalVariable.globalDelayTime)
-
-WebUI.waitForElementClickable(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'), 5)
-
-WebUI.click(findTestObject('Object Repository/3.DEX/Login/button_Approve_Web3_Tnx'))
-
-WebUI.delay(GlobalVariable.globalDelayTime)
-
-//
+WebUI.click(findTestObject('1.MKP/Sell/button_Cancel'))
+WebUI.switchToWindowIndex(0)
 
 WebUI.closeBrowser()

@@ -24,20 +24,15 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-//import org.openqa.selenium.Keys as Keys
-System.setProperty('webdriver.chrome.driver', 'C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe')
+//System.setProperty('webdriver.chrome.driver', 'C:/Users/LAP15239-local/Katalon Studio/git/katalon/webdrivers/chromedriver.exe')
+System.setProperty('webdriver.chrome.driver', './webdrivers/chromedriver.exe')
 
+//Open existing Chrome Profile (da login san account)
 ChromeOptions options = new ChromeOptions()
-
-//options.setExperimentalOption("useAutomationExtension", false);
 List<String> eSwitches = new ArrayList()
-
-eSwitches.add('enable-automation')
-
+//eSwitches.add('enable-automation')
 options.setExperimentalOption('excludeSwitches', eSwitches)
-
 options.addArguments('--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data')
-
 options.addArguments('--profile-directory=Profile 4')
 
 // For use with ChromeDriver:
@@ -45,3 +40,6 @@ WebDriver driver = new ChromeDriver(options)
 
 //Change to default driver
 DriverFactory.changeWebDriver(driver)
+
+WebUI.maximizeWindow()
+

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(),'Cancel')]</value>
+         <value>//button[text()='Cancel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5ed455f7-004a-45d6-ae98-a3dee884d217</webElementGuid>
+      <webElementGuid>91669969-c384-42c0-9846-875b0b3faae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>af10d091-241d-4dfd-be82-d59e1e19792e</webElementGuid>
+      <webElementGuid>4654bfda-48fe-48e0-acfe-b86c3f8b5703</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button mkp-style-1fcxzyw-CTA</value>
-      <webElementGuid>9352befc-4e08-4773-a801-07f11c5b77be</webElementGuid>
+      <webElementGuid>0ea5d270-cf57-4cff-9027-8aa0cb9120f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>670b50c1-b696-48b7-80f8-9a8a5b643a8f</webElementGuid>
+      <webElementGuid>fc63c314-1803-46cc-8249-a2f37d88a3fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;__variable_9c9965 font-sans&quot;]/div[@class=&quot;mkp-style-0&quot;]/div[@class=&quot;mkp-style-1gaga0y&quot;]/div[@class=&quot;mkp-style-i9gxme&quot;]/div[@class=&quot;mkp-style-vooagt&quot;]/div[@class=&quot;mkp-style-6s1c6m&quot;]/div[@class=&quot;mkp-style-1r91zvi&quot;]/div[@class=&quot;chakra-stack mkp-style-lhu4x5&quot;]/div[@class=&quot;mkp-style-3yrk1f&quot;]/div[@class=&quot;mkp-style-anke3t&quot;]/div[@class=&quot;mkp-style-5u84wp&quot;]/div[@class=&quot;mkp-style-1dgpvj2&quot;]/div[@class=&quot;mkp-style-qenbwg&quot;]/button[@class=&quot;chakra-button mkp-style-1fcxzyw-CTA&quot;]</value>
-      <webElementGuid>eead7ad5-8a5e-44dc-8561-e0f45d1c5a3d</webElementGuid>
+      <webElementGuid>3445e36f-6ce4-4312-a8e7-422de2cdd826</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>3b819595-8bbe-4f91-a7c1-c876d9fca8e2</webElementGuid>
+      <webElementGuid>45eefb56-18ac-4fc7-a90c-ca839d66df7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/div/div/div[3]/div/div/div/div/div/div[2]/div[2]/div/div[6]/button[2]</value>
-      <webElementGuid>51aa1e1c-11f9-496c-bdbc-13dc27b775e4</webElementGuid>
+      <webElementGuid>1a29cc9f-a9b2-4d24-9116-b4b79915fe86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Place on market'])[2]/following::button[1]</value>
-      <webElementGuid>fee7ae66-95ce-4b2e-a76c-28ccbd305b3b</webElementGuid>
+      <webElementGuid>dce9d213-fddf-4334-92b1-e17c91a5dc6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Receivable'])[1]/following::button[2]</value>
-      <webElementGuid>1102300d-6f50-4434-881b-e17e3c7a3238</webElementGuid>
+      <webElementGuid>a22efda3-64d8-42c2-b80b-b51a59b07c1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Our ecosystem'])[1]/preceding::button[1]</value>
-      <webElementGuid>3c95125d-e6e5-43a6-a7b4-4a6a502c1069</webElementGuid>
+      <webElementGuid>4476897c-c229-423c-88a9-f8cdf8635aa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button[2]</value>
-      <webElementGuid>f566e113-a47a-47c4-9c2f-c50eebdaa3ac</webElementGuid>
+      <webElementGuid>ca5f2939-f0fc-43d7-847d-8bbe632383af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>d2863725-5235-4449-8bf4-08375fe6fb32</webElementGuid>
+      <webElementGuid>d6272afb-195f-451f-be9f-e64f87093c8f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

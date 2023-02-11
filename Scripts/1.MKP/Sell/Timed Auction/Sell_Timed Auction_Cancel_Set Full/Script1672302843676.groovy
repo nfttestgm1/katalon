@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Timed Auction'))
 
 //Method - select highest bidder
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Method'))
-WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Sell to the highest bidder'))
+WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Sell_to_the_highest_bidder'))
 
 //Duration
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_timed-auction-duration'))
@@ -70,7 +70,8 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_buy-now-token'))
 WebUI.setText(findTestObject('Object Repository/1.MKP/Sell/input_buy-now-amount'), GlobalVariable.priceToBuyNow)
 
 //Private Listing
-WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Private_Listing'))
+WebUI.click(findTestObject('Object Repository/1.MKP/Sell/span_Private_listing'))
+
 //Add Member
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Manage member'))
 WebUI.setText(findTestObject('Object Repository/1.MKP/Sell/input_Wallet Address or Username'), 'lamldt')
@@ -80,6 +81,10 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Done'))
 //WebUI.sleep(2000)
 WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/button_Place on market')), 5)
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
-WebUI.click(findTestObject('1.MKP/Sell/button_Close_Popup'))
+
+//close popup web3
+WebUI.switchToWindowIndex(1)
+WebUI.click(findTestObject('1.MKP/Sell/button_Cancel'))
+WebUI.switchToWindowIndex(0)
 
 WebUI.closeBrowser()

@@ -19,35 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('1.MKP/BeforeTest/OpenChromeProfiles'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.MKP_url)
+WebUI.navigateToUrl(GlobalVariable.MKP_url_test)
 
+//Click on Explore button at Home
 WebUI.click(findTestObject('Object Repository/1.MKP/Explore/div_Explore'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'), 0)
 
 Explore_URL = WebUI.getUrl()
 
-WebUI.verifyMatch(Explore_URL, GlobalVariable.MKP_url + '/listing', false)
+WebUI.verifyMatch(Explore_URL, GlobalVariable.MKP_url_test + '/listing', false)
 
+//Click on Collections button in Explore
 WebUI.click(findTestObject('1.MKP/Explore/button_Collections'))
 
 WebUI.waitForElementVisible(findTestObject('1.MKP/Explore/div_Category'), 0)
 
 Collections_URL = WebUI.getUrl()
 
-WebUI.verifyMatch(Collections_URL, GlobalVariable.MKP_url + GlobalVariable.listing_collections_path, false)
+WebUI.verifyMatch(Collections_URL, GlobalVariable.MKP_url_test + GlobalVariable.listing_collections_path, false)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Category'))
 
+//Click on NFTs button in Explore
 WebUI.click(findTestObject('1.MKP/Explore/button_NFTs'))
 
 WebUI.waitForElementVisible(findTestObject('1.MKP/Explore/div_Collection'), 0)
 
 NFTs_URL = WebUI.getUrl()
 
-WebUI.verifyMatch(NFTs_URL, GlobalVariable.MKP_url + GlobalVariable.listing_nfts_path, false)
+WebUI.verifyMatch(NFTs_URL, GlobalVariable.MKP_url_test + GlobalVariable.listing_nfts_path, false)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Status'))

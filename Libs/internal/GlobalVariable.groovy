@@ -104,6 +104,11 @@ public class GlobalVariable {
      */
     public static Object MKP_url_dev
      
+    /**
+     * <p></p>
+     */
+    public static Object MKP_url_test
+     
 
     static {
         try {
@@ -130,6 +135,7 @@ public class GlobalVariable {
             globalDelayTime = selectedVariables['globalDelayTime']
             token_amount = selectedVariables['token_amount']
             MKP_url_dev = selectedVariables['MKP_url_dev']
+            MKP_url_test = selectedVariables['MKP_url_test']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

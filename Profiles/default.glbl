@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://market.dev.yoverse.io/'</initValue>
+      <initValue>'https://market.test.yoverse.io'</initValue>
       <name>MKP_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -96,7 +96,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://market.dev.yoverse.io/'</initValue>
+      <initValue>'https://market.dev.yoverse.io'</initValue>
       <name>MKP_url_dev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://market.test.yoverse.io'</initValue>
+      <name>MKP_url_test</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
