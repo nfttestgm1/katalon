@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288020</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Test Suite_multi-browsers</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">false</property>
+  <property name="retryCount">0</property>
+  <property name="name">Test Suite_multi-browsers</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Test Suite_multi-browsers</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288038</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = LAP15239-local - host.docker.internal</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">LAP15239-local - host.docker.internal</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288039</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288039</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.25.40.193</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">172.25.40.193</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288040</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.5.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.5.5.208</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288049</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288066</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;
+... I am Listener inside sampleBeforeTestSuite function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288070</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;
+... I am Listener inside sampleBeforeTestSuite function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288071</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288398</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully</property>
+  <property name="source">C:\Users\LAP15239-local\Katalon Studio\git\katalon\Test Cases\1.MKP\Explore\Verify that Explore_Collections_is displayed successfully.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288429</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288430</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;
+... I am Listener inside sampleBeforeTestCase function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288431</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;
+... I am Listener inside sampleBeforeTestCase function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288431</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleBeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:48</date>
+  <millis>1676121288921</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:49</date>
+  <millis>1676121289115</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying</property>
+  <property name="source">C:\Users\LAP15239-local\Katalon Studio\git\katalon\Test Cases\1.MKP\BeforeTest\OpenMultiBrowsers_trying.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290065</millis>
+  <sequence>25</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&amp;quot;SeleniumFF&amp;quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile("SeleniumFF");
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Verify that Explore_Collections_is displayed successfully</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>151</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1676121280894</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290077</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290098</millis>
+  <sequence>31</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to call Test Case &amp;apos;Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;apos; (Root cause: com.kms.katalon.core.exception.StepErrorException: Call Test Case &amp;apos;Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;apos; failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&amp;quot;SeleniumFF&amp;quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+</property>
+  <property name="failed.exception.message">startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290105</millis>
+  <sequence>34</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case &amp;apos;Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;apos; failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&amp;quot;SeleniumFF&amp;quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying' failed because of error(s)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>66</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Verify that Explore_Collections_is displayed successfully</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>151</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1676121280894</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290112</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290113</millis>
+  <sequence>39</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Call Test Case &amp;apos;Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying&amp;apos; failed because of error(s)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&amp;quot;SeleniumFF&amp;quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepErrorException: Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying' failed because of error(s)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>66</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>Verify that Explore_Collections_is displayed successfully</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>151</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1676121280894</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Verify that Explore_Collections_is displayed successfully.run(Verify that Explore_Collections_is displayed successfully:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1676121280894.run(TempTestSuite1676121280894.groovy:36)
+</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 28: unable to resolve class WebUIDriverType 
+ @ line 28, column 17.
+   WebUIDriverType executedBrowser = DriverFactory.getExecutedBrowser()
+                   ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 45: unable to resolve class FirefoxProfile 
+ @ line 45, column 18.
+   		FirefoxProfile FF = profile.getProfile(&quot;SeleniumFF&quot;);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 18.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                    ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 46: unable to resolve class FirefoxOptions 
+ @ line 46, column 28.
+   		FirefoxOptions options = new FirefoxOptions().setProfile(FF);
+                              ^
+
+file:/C:/Users/LAP15239-local/Katalon%20Studio/git/katalon/Scripts/1.MKP/BeforeTest/OpenMultiBrowsers_trying/Script1676120919473.groovy: 48: unable to resolve class FirefoxDriver 
+ @ line 48, column 22.
+   		WebDriver driver = new FirefoxDriver(options);
+                        ^
+
+5 errors
+</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290120</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290121</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;
+... I am Listener inside sampleAfterTestCase function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">46</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290122</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;
+... I am Listener inside sampleAfterTestCase function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290122</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290123</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290128</millis>
+  <sequence>48</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290129</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : println(&amp;quot;
+... I am Listener inside sampleAfterTestSuite function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">66</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290130</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : println(&amp;quot;
+... I am Listener inside sampleAfterTestSuite function&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290130</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : sampleAfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290131</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290890</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\LAP15239-local\Katalon Studio\git\katalon\Reports\20230211_201439\Test Suite_multi-browsers\20230211_201440...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290957</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290958</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\LAP15239-local\Katalon Studio\git\katalon\Reports\20230211_201439\Test Suite_multi-browsers\20230211_201440...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290977</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:50</date>
+  <millis>1676121290978</millis>
+  <sequence>124</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating PDF report folder at: C:\Users\LAP15239-local\Katalon Studio\git\katalon\Reports\20230211_201439\Test Suite_multi-browsers\20230211_201440...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:55</date>
+  <millis>1676121295944</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PDF report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:55</date>
+  <millis>1676121295963</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2023-02-11T20:14:56</date>
+  <millis>1676121296012</millis>
+  <sequence>128</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Test Suite_multi-browsers</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

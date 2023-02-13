@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Edge Chromium 110,,,2023-02-12 11:21:15,2023-02-12 11:21:50,34.733s,FAILED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Edge Chromium 110,,,2023-02-12 11:21:16,2023-02-12 11:21:50,34.480s,FAILED
+Start listener action : sampleBeforeTestCase,Edge Chromium 110,,,2023-02-12 11:21:16,2023-02-12 11:21:16,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], OPTIONAL)",Edge Chromium 110,,,2023-02-12 11:21:16,2023-02-12 11:21:19,3.449s,PASSED
+navigateToUrl(MKP_url_test),Edge Chromium 110,,,2023-02-12 11:21:19,2023-02-12 11:21:29,9.305s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Edge Chromium 110,,,2023-02-12 11:21:29,2023-02-12 11:21:50,21.389s,FAILED
+Start listener action : sampleAfterTestCase,Edge Chromium 110,,,2023-02-12 11:21:50,2023-02-12 11:21:50,0.001s,PASSED

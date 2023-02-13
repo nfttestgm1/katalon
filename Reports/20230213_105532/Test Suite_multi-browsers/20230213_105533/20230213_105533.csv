@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Firefox 109.0,,,2023-02-13 10:55:48,2023-02-13 10:57:09,1m - 20.526s,FAILED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Firefox 109.0,,,2023-02-13 10:55:49,2023-02-13 10:57:09,1m - 20.116s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 109.0,,,2023-02-13 10:55:49,2023-02-13 10:55:49,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], OPTIONAL)",Firefox 109.0,,,2023-02-13 10:55:49,2023-02-13 10:56:46,56.639s,PASSED
+navigateToUrl(MKP_url_test),Firefox 109.0,,,2023-02-13 10:56:46,2023-02-13 10:56:55,9.409s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""), 10)",Firefox 109.0,,,2023-02-13 10:56:55,2023-02-13 10:56:57,2.106s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Firefox 109.0,,,2023-02-13 10:56:57,2023-02-13 10:56:58,0.327s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""), 10)",Firefox 109.0,,,2023-02-13 10:56:58,2023-02-13 10:57:09,11.106s,PASSED
+Explore_URL = getUrl(),Firefox 109.0,,,2023-02-13 10:57:09,2023-02-13 10:57:09,0.015s,PASSED
+"verifyMatch(Explore_URL, MKP_url_test + ""/listing"", false)",Firefox 109.0,,,2023-02-13 10:57:09,2023-02-13 10:57:09,0.012s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 109.0,,,2023-02-13 10:57:09,2023-02-13 10:57:09,0.000s,PASSED

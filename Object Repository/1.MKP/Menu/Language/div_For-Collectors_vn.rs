@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_For-Collectors_vn</name>
+   <tag></tag>
+   <elementGuidId>7c3b6ab9-0e31-480b-8110-41133b91e5f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mkp-style-gnl226</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='Dành cho Nhà sưu tập']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eb5f0efb-8102-4ee4-bb5a-fe8af4007e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-gnl226</value>
+      <webElementGuid>78f3129a-1d26-4f8c-97b7-88a759620af1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tiếng Việt</value>
+      <webElementGuid>97277a78-3068-433b-b209-d474ab5dd9f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-:r2j:--tabpanel-0&quot;)/div[@class=&quot;mkp-style-8atqhb&quot;]/div[@class=&quot;mkp-style-xvo4vg&quot;]/div[@class=&quot;mkp-style-gnl226&quot;]</value>
+      <webElementGuid>7156612b-7dd6-421d-bca9-b5a1fc97d453</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-:r2j:--tabpanel-0']/div/div/div[2]</value>
+      <webElementGuid>bc89aedf-8ea6-4089-bff6-9ee838f5ecca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::div[1]</value>
+      <webElementGuid>a15837eb-c717-43a2-a480-fd54b53435b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your language and region'])[1]/following::div[10]</value>
+      <webElementGuid>1c817684-3932-488e-9043-2cd9e8391244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='繁體漢字'])[1]/preceding::div[7]</value>
+      <webElementGuid>47a103bc-ca95-4f2c-a447-97e8ac61f35e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div[3]/div/div/div/div[2]</value>
+      <webElementGuid>0627870e-5ef7-47e0-ad49-303dc8bffc6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tiếng Việt' or . = 'Tiếng Việt')]</value>
+      <webElementGuid>e47c3189-dfee-4bb2-84fb-049353246dfe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

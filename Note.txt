@@ -1,0 +1,3 @@
+1. Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  => thu tat het Chrome roi hay chay test

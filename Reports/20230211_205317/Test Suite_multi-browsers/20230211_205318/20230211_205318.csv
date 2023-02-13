@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Firefox 109.0,,,2023-02-11 20:53:24,2023-02-11 20:54:49,1m - 24.657s,FAILED
+,,,,,,,
+Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully,Firefox 109.0,,,2023-02-11 20:53:24,2023-02-11 20:54:49,1m - 24.303s,FAILED
+Start listener action : sampleBeforeTestCase,Firefox 109.0,,,2023-02-11 20:53:25,2023-02-11 20:53:25,0.003s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers_trying""), [:], STOP_ON_FAILURE)",Firefox 109.0,,,2023-02-11 20:53:25,2023-02-11 20:54:18,52.952s,PASSED
+navigateToUrl(MKP_url_test),Firefox 109.0,,,2023-02-11 20:54:18,2023-02-11 20:54:28,9.616s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Firefox 109.0,,,2023-02-11 20:54:28,2023-02-11 20:54:49,21.235s,FAILED
+Start listener action : sampleAfterTestCase,Firefox 109.0,,,2023-02-11 20:54:49,2023-02-11 20:54:49,0.002s,PASSED

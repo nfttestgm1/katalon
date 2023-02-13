@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Marketplace</name>
+   <tag></tag>
+   <elementGuidId>78d2d1ed-7a59-4afc-a561-e3e0bfa38a28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='Marketplace']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7c69e1a-216c-43e7-8d1c-cdd7915f72ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>networkItem mkp-style-1kf0g70</value>
+      <webElementGuid>c691ba43-c71b-4846-890c-c8cf4ff0c025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MarketplaceCollect fantasic NFTs on YoVerse Market Ecosystem</value>
+      <webElementGuid>88e786e7-103d-4623-897a-ff07e19277b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-list-:r4:&quot;)/div[@class=&quot;mkp-style-16kmx7z&quot;]/div[@class=&quot;mkp-style-1d1ry76&quot;]/div[@class=&quot;networkItem mkp-style-1kf0g70&quot;]</value>
+      <webElementGuid>5c60bc7b-4397-4618-9910-b808adbc52d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-list-:r4:']/div/div[2]/div[2]</value>
+      <webElementGuid>c97c1792-af09-4aa1-bbf0-6e7c69e752f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A place to start your Web3 journey'])[1]/following::div[3]</value>
+      <webElementGuid>b239745e-0707-4ee2-a440-e65de5cb3403</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wallet'])[1]/following::div[4]</value>
+      <webElementGuid>bbf21794-e9c7-4727-8681-755c37502cbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>8f5a6065-2064-494f-9b6a-9ec3855a6a94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MarketplaceCollect fantasic NFTs on YoVerse Market Ecosystem' or . = 'MarketplaceCollect fantasic NFTs on YoVerse Market Ecosystem')]</value>
+      <webElementGuid>9c2e243e-ea9c-4446-9700-9acfb941c2ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

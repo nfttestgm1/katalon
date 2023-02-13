@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Firefox 109.0,,,2023-02-13 10:38:11,2023-02-13 10:39:19,1m - 8.746s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Firefox 109.0,,,2023-02-13 10:38:11,2023-02-13 10:39:19,1m - 8.476s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 109.0,,,2023-02-13 10:38:11,2023-02-13 10:38:11,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], OPTIONAL)",Firefox 109.0,,,2023-02-13 10:38:11,2023-02-13 10:39:05,53.629s,PASSED
+navigateToUrl(MKP_url_test),Firefox 109.0,,,2023-02-13 10:39:05,2023-02-13 10:39:13,8.210s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""), 10)",Firefox 109.0,,,2023-02-13 10:39:13,2023-02-13 10:39:13,0.260s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Firefox 109.0,,,2023-02-13 10:39:13,2023-02-13 10:39:14,0.306s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""), 10)",Firefox 109.0,,,2023-02-13 10:39:14,2023-02-13 10:39:17,3.490s,PASSED
+Explore_URL = getUrl(),Firefox 109.0,,,2023-02-13 10:39:17,2023-02-13 10:39:17,0.021s,PASSED
+"verifyMatch(Explore_URL, MKP_url_test + ""/listing"", false)",Firefox 109.0,,,2023-02-13 10:39:17,2023-02-13 10:39:17,0.009s,PASSED
+"waitForElementClickable(findTestObject(""1.MKP/Explore/button_Collections""), 10)",Firefox 109.0,,,2023-02-13 10:39:17,2023-02-13 10:39:17,0.097s,PASSED
+"click(findTestObject(""1.MKP/Explore/button_Collections""))",Firefox 109.0,,,2023-02-13 10:39:17,2023-02-13 10:39:18,0.529s,PASSED
+"waitForElementVisible(findTestObject(""1.MKP/Explore/div_Category""), 10)",Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:18,0.467s,PASSED
+Collections_URL = getUrl(),Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:18,0.011s,PASSED
+"verifyMatch(Collections_URL, MKP_url_test + listing_collections_path, false)",Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:18,0.002s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""))",Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:18,0.140s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Category""))",Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:18,0.134s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-02-13 10:39:18,2023-02-13 10:39:19,0.833s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 109.0,,,2023-02-13 10:39:19,2023-02-13 10:39:19,0.001s,PASSED

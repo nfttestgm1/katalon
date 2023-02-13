@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tieng-Viet</name>
+   <tag></tag>
+   <elementGuidId>be8e0f0b-5e78-471e-b7a0-599e5a42bfa9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mkp-style-gnl226</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(text()='Tiếng Việt')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>76a84e2b-7707-4bf6-8285-9e5342eaff5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mkp-style-gnl226</value>
+      <webElementGuid>ce556c33-c48f-4f7d-aa13-9c7aff843c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tiếng Việt</value>
+      <webElementGuid>eeb8789a-c413-4c9c-81dd-a6af80e04c15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tabs-:r2j:--tabpanel-0&quot;)/div[@class=&quot;mkp-style-8atqhb&quot;]/div[@class=&quot;mkp-style-xvo4vg&quot;]/div[@class=&quot;mkp-style-gnl226&quot;]</value>
+      <webElementGuid>bef6b87d-dca5-4597-bf3c-7a653d816745</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tabs-:r2j:--tabpanel-0']/div/div/div[2]</value>
+      <webElementGuid>939febcc-195a-4b52-8de7-69a3e0fd4d78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[2]/following::div[1]</value>
+      <webElementGuid>59b83507-0601-4147-b80a-d5329c11b236</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your language and region'])[1]/following::div[10]</value>
+      <webElementGuid>5909c695-58c8-4aec-ae52-c5290c32daa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='繁體漢字'])[1]/preceding::div[7]</value>
+      <webElementGuid>6d49ac19-60ac-4d6a-81be-c535eb90533e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div[3]/div/div/div/div[2]</value>
+      <webElementGuid>1d0fdbca-f48c-431a-81a9-27066fbfeb86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Tiếng Việt' or . = 'Tiếng Việt')]</value>
+      <webElementGuid>bf4969a1-c0c5-4c06-b795-33d464f36916</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

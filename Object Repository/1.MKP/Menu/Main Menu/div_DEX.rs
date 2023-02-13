@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DEX</name>
+   <tag></tag>
+   <elementGuidId>7085b589-72b3-4b7b-87cf-865f3f4c7645</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='DEX']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cff960ab-3062-4133-be48-cb68e3819691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>networkItem mkp-style-1kf0g70</value>
+      <webElementGuid>6bcdb179-cc8d-4e77-92e9-a568fd59ee9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DEXConvert your tokens on YoVerse Market Network</value>
+      <webElementGuid>c2fbf23c-ea71-4e33-bfe3-32cf14155b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-list-:r4:&quot;)/div[@class=&quot;mkp-style-16kmx7z&quot;]/div[@class=&quot;mkp-style-1d1ry76&quot;]/div[@class=&quot;networkItem mkp-style-1kf0g70&quot;]</value>
+      <webElementGuid>4c21b196-d957-4158-993e-e0e44cd5c7f2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-list-:r4:']/div/div[2]/div[4]</value>
+      <webElementGuid>eb0d2223-600f-4308-ab94-9036bd34d3cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer your assets between YoVerse Market and other blockchains'])[1]/following::div[3]</value>
+      <webElementGuid>ae6c7fa2-5c98-4e6c-91ed-93f911ae1322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bridge'])[1]/following::div[4]</value>
+      <webElementGuid>7ccbb65b-3a5e-4657-a7bb-ee7a26993892</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]</value>
+      <webElementGuid>436f4d6d-464c-4e75-8da4-f67bb4036f0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'DEXConvert your tokens on YoVerse Market Network' or . = 'DEXConvert your tokens on YoVerse Market Network')]</value>
+      <webElementGuid>c36ed08a-1c33-400e-b604-40baa8994461</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

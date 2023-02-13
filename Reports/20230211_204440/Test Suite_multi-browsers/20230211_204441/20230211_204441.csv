@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,,,,2023-02-11 20:44:46,2023-02-11 20:44:49,3.389s,ERROR
+,,,,,,,
+Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully,,,,2023-02-11 20:44:46,2023-02-11 20:44:49,2.965s,ERROR
+Start listener action : sampleBeforeTestCase,,,,2023-02-11 20:44:46,2023-02-11 20:44:46,0.004s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers_trying""), [:], STOP_ON_FAILURE)",,,,2023-02-11 20:44:47,2023-02-11 20:44:49,2.408s,ERROR
+Start listener action : sampleAfterTestCase,,,,2023-02-11 20:44:49,2023-02-11 20:44:49,0.002s,PASSED

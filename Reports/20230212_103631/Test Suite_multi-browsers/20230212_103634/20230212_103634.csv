@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Chrome 110.0.0.0,,,2023-02-12 10:38:31,2023-02-12 10:38:51,19.082s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Chrome 110.0.0.0,,,2023-02-12 10:38:32,2023-02-12 10:38:51,18.867s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-12 10:38:32,2023-02-12 10:38:32,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], STOP_ON_FAILURE)",Chrome 110.0.0.0,,,2023-02-12 10:38:32,2023-02-12 10:38:36,4.066s,PASSED
+navigateToUrl(MKP_url_test),Chrome 110.0.0.0,,,2023-02-12 10:38:36,2023-02-12 10:38:40,4.402s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Chrome 110.0.0.0,,,2023-02-12 10:38:40,2023-02-12 10:38:41,0.318s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""), 0)",Chrome 110.0.0.0,,,2023-02-12 10:38:41,2023-02-12 10:38:49,8.042s,PASSED
+Explore_URL = getUrl(),Chrome 110.0.0.0,,,2023-02-12 10:38:49,2023-02-12 10:38:49,0.021s,PASSED
+"verifyMatch(Explore_URL, MKP_url_test + ""/listing"", false)",Chrome 110.0.0.0,,,2023-02-12 10:38:49,2023-02-12 10:38:49,0.012s,PASSED
+"click(findTestObject(""1.MKP/Explore/button_Collections""))",Chrome 110.0.0.0,,,2023-02-12 10:38:49,2023-02-12 10:38:49,0.146s,PASSED
+"waitForElementVisible(findTestObject(""1.MKP/Explore/div_Category""), 0)",Chrome 110.0.0.0,,,2023-02-12 10:38:49,2023-02-12 10:38:50,0.526s,PASSED
+Collections_URL = getUrl(),Chrome 110.0.0.0,,,2023-02-12 10:38:50,2023-02-12 10:38:50,0.022s,PASSED
+"verifyMatch(Collections_URL, MKP_url_test + listing_collections_path, false)",Chrome 110.0.0.0,,,2023-02-12 10:38:50,2023-02-12 10:38:50,0.004s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""))",Chrome 110.0.0.0,,,2023-02-12 10:38:50,2023-02-12 10:38:50,0.127s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Category""))",Chrome 110.0.0.0,,,2023-02-12 10:38:50,2023-02-12 10:38:50,0.108s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-12 10:38:50,2023-02-12 10:38:51,0.704s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-12 10:38:51,2023-02-12 10:38:51,0.001s,PASSED

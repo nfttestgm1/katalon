@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,,,,2023-02-11 19:27:36,2023-02-11 19:27:37,1.363s,FAILED
+,,,,,,,
+Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully,,,,2023-02-11 19:27:36,2023-02-11 19:27:37,1.033s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2023-02-11 19:27:36,2023-02-11 19:27:36,0.002s,PASSED
+"openBrowser("""")",,,,2023-02-11 19:27:36,2023-02-11 19:27:37,0.605s,FAILED
+Start listener action : sampleAfterTestCase,,,,2023-02-11 19:27:37,2023-02-11 19:27:37,0.002s,PASSED

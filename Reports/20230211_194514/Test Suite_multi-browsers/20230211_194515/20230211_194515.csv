@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Chrome 110.0.0.0,,,2023-02-11 19:45:19,2023-02-11 19:45:28,9.150s,FAILED
+,,,,,,,
+Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully,Chrome 110.0.0.0,,,2023-02-11 19:45:19,2023-02-11 19:45:28,8.908s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-11 19:45:19,2023-02-11 19:45:19,0.001s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-11 19:45:19,2023-02-11 19:45:22,2.486s,PASSED
+navigateToUrl(MKP_url),Chrome 110.0.0.0,,,2023-02-11 19:45:22,2023-02-11 19:45:26,4.793s,PASSED
+"click(findTestObject(""1.MKP/Home Page/Collectors/button_Collectors""))",Chrome 110.0.0.0,,,2023-02-11 19:45:26,2023-02-11 19:45:28,1.367s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-11 19:45:28,2023-02-11 19:45:28,0.001s,PASSED

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite_multi-browsers" time="16.241" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite_multi-browsers" tests="1" failures="0" errors="0" time="16.241" skipped="0" timestamp="2023-02-11 19:22:38" hostname="LAP15239-local - host.docker.internal" id="Test Suites/Test Suite_multi-browsers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230211_192233\\Test Suite_multi-browsers\\20230211_192234"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230211_192233\\Test Suite_multi-browsers\\20230211_192234\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="172.25.40.193"/>
+         <property name="sessionId" value="0bb8686fd95aecd794ba15a496ae08d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully" time="15.95" classname="Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully" status="PASSED">
+         <system-out><![CDATA[2023-02-11 19:22:39 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully: Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully
+
+2023-02-11 19:22:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-11 19:22:39 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-02-11 19:22:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-02-11 19:22:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-02-11 19:22:39 - [MESSAGE][INFO] - User set preference: ['args', '[start-maximized, --profile-directory=Profile 4]']
+
+2023-02-11 19:22:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-02-11 19:22:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-02-11 19:22:42 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-02-11 19:22:48 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-02-11 19:22:48 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Home Page/Collectors/button_Collectors")): Object: 'Object Repository/1.MKP/Home Page/Collectors/button_Collectors' is clicked on
+
+2023-02-11 19:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Home Page/Collectors/button_Collectors' is clicked on
+
+2023-02-11 19:22:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1.MKP/Home Page/Collectors/div_Spotlight. Collections youll love")): Object 'Object Repository/1.MKP/Home Page/Collectors/div_Spotlight. Collections youll love' is visible
+
+2023-02-11 19:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Home Page/Collectors/div_Spotlight. Collections youll love' is visible
+
+2023-02-11 19:22:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1.MKP/Home Page/Collectors/div_Trending")): Object 'Object Repository/1.MKP/Home Page/Collectors/div_Trending' is visible
+
+2023-02-11 19:22:53 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Home Page/Collectors/div_Trending' is visible
+
+2023-02-11 19:22:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1.MKP/Home Page/Collectors/p_Ranking Chart")): Object 'Object Repository/1.MKP/Home Page/Collectors/p_Ranking Chart' is visible
+
+2023-02-11 19:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Home Page/Collectors/p_Ranking Chart' is visible
+
+2023-02-11 19:22:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("1.MKP/Home Page/Collectors/div_FAQ")): Object 'Object Repository/1.MKP/Home Page/Collectors/div_FAQ' is visible
+
+2023-02-11 19:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Home Page/Collectors/div_FAQ' is visible
+
+2023-02-11 19:22:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-11 19:22:55 - [MESSAGE][PASSED] - Browser is closed
+
+2023-02-11 19:22:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-11 19:22:55 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-11 19:22:38 - [TEST_SUITE][PASSED] - Test Suite_multi-browsers: Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

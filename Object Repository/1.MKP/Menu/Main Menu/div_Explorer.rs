@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Explorer</name>
+   <tag></tag>
+   <elementGuidId>a0085e6b-421b-4c34-a050-0be440b4083d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='DEX']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d1b863db-bee8-490d-8b49-86f1f63045d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>networkItem mkp-style-1kf0g70</value>
+      <webElementGuid>be688471-5053-419b-ae2e-03a980f909c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ExplorerTracking transactions activity on YoVerse Market Chain</value>
+      <webElementGuid>41e630ab-e176-4d33-a3a9-71667a26f2b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-list-:r4:&quot;)/div[@class=&quot;mkp-style-16kmx7z&quot;]/div[@class=&quot;mkp-style-1d1ry76&quot;]/div[@class=&quot;networkItem mkp-style-1kf0g70&quot;]</value>
+      <webElementGuid>2761af6f-6d6c-495a-9f91-3d160ee3d369</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-list-:r4:']/div/div[2]/div[5]</value>
+      <webElementGuid>7effa9f9-ddc1-4f5a-8fef-00e1ec56342b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Convert your tokens on YoVerse Market Network'])[1]/following::div[3]</value>
+      <webElementGuid>b96931bb-e48e-4688-8495-a29f69700012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEX'])[1]/following::div[4]</value>
+      <webElementGuid>c18500f1-50fe-490b-89fe-4f2e03feb674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]</value>
+      <webElementGuid>8558ff9b-6215-466e-b997-21360391ad7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ExplorerTracking transactions activity on YoVerse Market Chain' or . = 'ExplorerTracking transactions activity on YoVerse Market Chain')]</value>
+      <webElementGuid>9312d65a-390f-405b-b744-624069868a53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Chrome 110.0.0.0,,,2023-02-13 10:39:27,2023-02-13 10:39:38,11.583s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Chrome 110.0.0.0,,,2023-02-13 10:39:27,2023-02-13 10:39:38,11.331s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-13 10:39:27,2023-02-13 10:39:27,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], OPTIONAL)",Chrome 110.0.0.0,,,2023-02-13 10:39:27,2023-02-13 10:39:32,4.959s,PASSED
+navigateToUrl(MKP_url_test),Chrome 110.0.0.0,,,2023-02-13 10:39:32,2023-02-13 10:39:35,2.630s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""), 10)",Chrome 110.0.0.0,,,2023-02-13 10:39:35,2023-02-13 10:39:36,0.547s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Chrome 110.0.0.0,,,2023-02-13 10:39:36,2023-02-13 10:39:36,0.325s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""), 10)",Chrome 110.0.0.0,,,2023-02-13 10:39:36,2023-02-13 10:39:37,0.665s,PASSED
+Explore_URL = getUrl(),Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.032s,PASSED
+"verifyMatch(Explore_URL, MKP_url_test + ""/listing"", false)",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.012s,PASSED
+"waitForElementClickable(findTestObject(""1.MKP/Explore/button_Collections""), 10)",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.149s,PASSED
+"click(findTestObject(""1.MKP/Explore/button_Collections""))",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.175s,PASSED
+"waitForElementVisible(findTestObject(""1.MKP/Explore/div_Category""), 10)",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.479s,PASSED
+Collections_URL = getUrl(),Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.019s,PASSED
+"verifyMatch(Collections_URL, MKP_url_test + listing_collections_path, false)",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:37,0.007s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""))",Chrome 110.0.0.0,,,2023-02-13 10:39:37,2023-02-13 10:39:38,0.110s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Category""))",Chrome 110.0.0.0,,,2023-02-13 10:39:38,2023-02-13 10:39:38,0.093s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-13 10:39:38,2023-02-13 10:39:38,0.785s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-13 10:39:38,2023-02-13 10:39:38,0.001s,PASSED

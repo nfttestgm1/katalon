@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Chrome 110.0.0.0,,,2023-02-11 19:56:06,2023-02-11 19:56:24,17.743s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Home Page/Collectors/Verify Home Page_For Collectors_is displayed successfully,Chrome 110.0.0.0,,,2023-02-11 19:56:07,2023-02-11 19:56:24,17.437s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 110.0.0.0,,,2023-02-11 19:56:07,2023-02-11 19:56:07,0.002s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-02-11 19:56:07,2023-02-11 19:56:11,3.499s,PASSED
+navigateToUrl(MKP_url),Chrome 110.0.0.0,,,2023-02-11 19:56:11,2023-02-11 19:56:19,8.223s,PASSED
+"click(findTestObject(""1.MKP/Home Page/Collectors/button_Collectors""))",Chrome 110.0.0.0,,,2023-02-11 19:56:19,2023-02-11 19:56:20,1.414s,PASSED
+"verifyElementVisible(findTestObject(""1.MKP/Home Page/Collectors/div_Spotlight. Collections youll love""))",Chrome 110.0.0.0,,,2023-02-11 19:56:20,2023-02-11 19:56:22,2.097s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Home Page/Collectors/div_Trending""))",Chrome 110.0.0.0,,,2023-02-11 19:56:22,2023-02-11 19:56:23,0.393s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Home Page/Collectors/p_Ranking Chart""))",Chrome 110.0.0.0,,,2023-02-11 19:56:23,2023-02-11 19:56:23,0.357s,PASSED
+"verifyElementVisible(findTestObject(""1.MKP/Home Page/Collectors/div_FAQ""))",Chrome 110.0.0.0,,,2023-02-11 19:56:23,2023-02-11 19:56:24,0.364s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-02-11 19:56:24,2023-02-11 19:56:24,0.650s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 110.0.0.0,,,2023-02-11 19:56:24,2023-02-11 19:56:24,0.002s,PASSED

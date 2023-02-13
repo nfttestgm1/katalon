@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_multi-browsers,Firefox 109.0,,,2023-02-12 11:02:03,2023-02-12 11:03:26,1m - 22.242s,PASSED
+,,,,,,,
+Test Cases/1.MKP/Explore/multibrowsers_Verify that Explore_Collections_is displayed successfully,Firefox 109.0,,,2023-02-12 11:02:04,2023-02-12 11:03:26,1m - 22.000s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 109.0,,,2023-02-12 11:02:04,2023-02-12 11:02:04,0.002s,PASSED
+"callTestCase(findTestCase(""1.MKP/BeforeTest/OpenMultiBrowsers""), [:], OPTIONAL)",Firefox 109.0,,,2023-02-12 11:02:04,2023-02-12 11:03:05,1m - 1.332s,PASSED
+navigateToUrl(MKP_url_test),Firefox 109.0,,,2023-02-12 11:03:05,2023-02-12 11:03:14,8.826s,PASSED
+"click(findTestObject(""Object Repository/1.MKP/Explore/div_Explore""))",Firefox 109.0,,,2023-02-12 11:03:14,2023-02-12 11:03:14,0.371s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""), 0)",Firefox 109.0,,,2023-02-12 11:03:14,2023-02-12 11:03:23,8.917s,PASSED
+Explore_URL = getUrl(),Firefox 109.0,,,2023-02-12 11:03:23,2023-02-12 11:03:23,0.023s,PASSED
+"verifyMatch(Explore_URL, MKP_url_test + ""/listing"", false)",Firefox 109.0,,,2023-02-12 11:03:23,2023-02-12 11:03:23,0.015s,PASSED
+"click(findTestObject(""1.MKP/Explore/button_Collections""))",Firefox 109.0,,,2023-02-12 11:03:23,2023-02-12 11:03:24,0.343s,PASSED
+"waitForElementVisible(findTestObject(""1.MKP/Explore/div_Category""), 0)",Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:24,0.411s,PASSED
+Collections_URL = getUrl(),Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:24,0.011s,PASSED
+"verifyMatch(Collections_URL, MKP_url_test + listing_collections_path, false)",Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:24,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Filters""))",Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:24,0.135s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/1.MKP/Explore/div_Category""))",Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:24,0.133s,PASSED
+closeBrowser(),Firefox 109.0,,,2023-02-12 11:03:24,2023-02-12 11:03:26,1.136s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 109.0,,,2023-02-12 11:03:26,2023-02-12 11:03:26,0.003s,PASSED

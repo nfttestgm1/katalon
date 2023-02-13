@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Wallet</name>
+   <tag></tag>
+   <elementGuidId>350872ce-c650-4696-9d8f-667206dfb246</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.networkItem.mkp-style-1kf0g70</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[text()='Wallet']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fb0c07ca-e091-44c5-86ce-93c5ad390cbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>networkItem mkp-style-1kf0g70</value>
+      <webElementGuid>891dcefb-8a04-4a4c-b0d6-0dafc4af8302</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>WalletA place to start your Web3 journey</value>
+      <webElementGuid>0b555cb6-6b79-4d8b-a1fe-708b52ffef05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-list-:r4:&quot;)/div[@class=&quot;mkp-style-16kmx7z&quot;]/div[@class=&quot;mkp-style-1d1ry76&quot;]/div[@class=&quot;networkItem mkp-style-1kf0g70&quot;]</value>
+      <webElementGuid>760831ce-9bb2-4b7b-abba-5c35e2cd8d3e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='menu-list-:r4:']/div/div[2]/div</value>
+      <webElementGuid>a4afd48f-8a6d-4f23-b7f5-d0613981a126</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English'])[1]/following::div[6]</value>
+      <webElementGuid>bde90d8e-d774-4377-b7f0-4b652a9951ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[3]/div/div/div[2]/div</value>
+      <webElementGuid>e7e79013-ce21-4eed-b719-8b623dbf74af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'WalletA place to start your Web3 journey' or . = 'WalletA place to start your Web3 journey')]</value>
+      <webElementGuid>514da859-e3b4-4044-ba47-eb4d92a07455</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

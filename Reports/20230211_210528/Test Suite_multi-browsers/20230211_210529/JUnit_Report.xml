@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite_multi-browsers" time="97.349" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite_multi-browsers" tests="1" failures="0" errors="0" time="97.349" skipped="0" timestamp="2023-02-11 21:05:37" hostname="LAP15239-local - host.docker.internal" id="Test Suites/Test Suite_multi-browsers">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230211_210528\\Test Suite_multi-browsers\\20230211_210529"/>
+         <property name="logFiles" value="C:\\Users\\LAP15239-local\\Katalon Studio\\git\\katalon\\Reports\\20230211_210528\\Test Suite_multi-browsers\\20230211_210529\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LAP15239-local - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Firefox 109.0"/>
+         <property name="hostAddress" value="172.25.40.193"/>
+         <property name="sessionId" value="282aad0c-b5db-418c-9e01-b4075dfc1828"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully" time="97.1" classname="Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully" status="PASSED">
+         <system-out><![CDATA[2023-02-11 21:05:37 - [TEST_CASE][PASSED] - Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully: Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleBeforeTestCase function"): null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("1.MKP/BeforeTest/OpenMultiBrowsers_trying"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying' successfully
+
+2023-02-11 21:05:38 - [TEST_CASE][PASSED] - Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying: Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - executedBrowser = getExecutedBrowser(): null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - switch (executedBrowser): null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - case FIREFOX_DRIVER:: null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - System.setProperty("webdriver.gecko.driver", "./webdrivers/geckodriver.exe"): null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - profile = new org.openqa.selenium.firefox.ProfilesIni(): null
+
+2023-02-11 21:05:38 - [TEST_STEP][PASSED] - FF = profile.getProfile("default-release-2"): null
+
+2023-02-11 21:05:39 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.firefox.FirefoxOptions(): null
+
+2023-02-11 21:05:39 - [TEST_STEP][PASSED] - options.setProfile(FF): null
+
+2023-02-11 21:05:39 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.firefox.FirefoxDriver(options): null
+
+2023-02-11 21:06:28 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+2023-02-11 21:06:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-02-11 21:06:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-02-11 21:06:29 - [TEST_STEP][PASSED] - break: null
+
+2023-02-11 21:06:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/1.MKP/BeforeTest/OpenMultiBrowsers_trying' successfully
+
+2023-02-11 21:06:29 - [TEST_STEP][PASSED] - navigateToUrl(MKP_url_test): Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-02-11 21:06:39 - [MESSAGE][PASSED] - Navigate to 'https://market.test.yoverse.io' successfully
+
+2023-02-11 21:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/1.MKP/Explore/div_Explore")): Object: 'Object Repository/1.MKP/Explore/div_Explore' is clicked on
+
+2023-02-11 21:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Explore/div_Explore' is clicked on
+
+2023-02-11 21:06:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/1.MKP/Explore/div_Filters"), 0): Object 'Object Repository/1.MKP/Explore/div_Filters' is not visible after 20 second(s)
+
+2023-02-11 21:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2023-02-11 21:07:01 - [MESSAGE][WARNING] - Object 'Object Repository/1.MKP/Explore/div_Filters' is not visible after 20 second(s)
+
+2023-02-11 21:07:01 - [TEST_STEP][PASSED] - Explore_URL = getUrl(): Current window's url is: 'https://market.test.yoverse.io/listing'
+
+2023-02-11 21:07:01 - [MESSAGE][PASSED] - Current window's url is: 'https://market.test.yoverse.io/listing'
+
+2023-02-11 21:07:01 - [TEST_STEP][PASSED] - verifyMatch(Explore_URL, MKP_url_test + "/listing", false): Actual text 'https://market.test.yoverse.io/listing' and expected text 'https://market.test.yoverse.io/listing' are matched 
+
+2023-02-11 21:07:01 - [MESSAGE][PASSED] - Actual text 'https://market.test.yoverse.io/listing' and expected text 'https://market.test.yoverse.io/listing' are matched 
+
+2023-02-11 21:07:01 - [TEST_STEP][PASSED] - click(findTestObject("1.MKP/Explore/button_Collections")): Object: 'Object Repository/1.MKP/Explore/button_Collections' is clicked on
+
+2023-02-11 21:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/1.MKP/Explore/button_Collections' is clicked on
+
+2023-02-11 21:07:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("1.MKP/Explore/div_Category"), 0): Object 'Object Repository/1.MKP/Explore/div_Category' is visible
+
+2023-02-11 21:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+2023-02-11 21:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Explore/div_Category' is visible
+
+2023-02-11 21:07:13 - [TEST_STEP][PASSED] - Collections_URL = getUrl(): Current window's url is: 'https://market.test.yoverse.io/listing?locale=en&tab=collection'
+
+2023-02-11 21:07:13 - [MESSAGE][PASSED] - Current window's url is: 'https://market.test.yoverse.io/listing?locale=en&tab=collection'
+
+2023-02-11 21:07:13 - [TEST_STEP][PASSED] - verifyMatch(Collections_URL, MKP_url_test + listing_collections_path, false): Actual text 'https://market.test.yoverse.io/listing?locale=en&tab=collection' and expected text 'https://market.test.yoverse.io/listing?locale=en&tab=collection' are matched 
+
+2023-02-11 21:07:13 - [MESSAGE][PASSED] - Actual text 'https://market.test.yoverse.io/listing?locale=en&tab=collection' and expected text 'https://market.test.yoverse.io/listing?locale=en&tab=collection' are matched 
+
+2023-02-11 21:07:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1.MKP/Explore/div_Filters")): Object 'Object Repository/1.MKP/Explore/div_Filters' is visible
+
+2023-02-11 21:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Explore/div_Filters' is visible
+
+2023-02-11 21:07:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/1.MKP/Explore/div_Category")): Object 'Object Repository/1.MKP/Explore/div_Category' is visible
+
+2023-02-11 21:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/1.MKP/Explore/div_Category' is visible
+
+2023-02-11 21:07:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-02-11 21:07:15 - [MESSAGE][PASSED] - Browser is closed
+
+2023-02-11 21:07:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2023-02-11 21:07:15 - [TEST_STEP][PASSED] - println("
+... I am Listener inside sampleAfterTestCase function"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-02-11 21:05:37 - [TEST_SUITE][PASSED] - Test Suite_multi-browsers: Test Cases/1.MKP/Explore/Verify that Explore_Collections_is displayed successfully]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
