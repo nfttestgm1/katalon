@@ -22,25 +22,21 @@ WebUI.callTestCase(findTestCase('1.MKP/BeforeTest/OpenMultiBrowsers'), [:], Fail
 WebUI.navigateToUrl(GlobalVariable.MKP_url_test)
 
 //Click on Explore button at Home
+WebUI.waitForElementClickable(findTestObject('Object Repository/1.MKP/Explore/div_Explore'), 10)
 WebUI.click(findTestObject('Object Repository/1.MKP/Explore/div_Explore'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'), 0)
-
+WebUI.waitForElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'), 10)
 Explore_URL = WebUI.getUrl()
-
 WebUI.verifyMatch(Explore_URL, GlobalVariable.MKP_url_test + '/listing', false)
 
 //Click on Collections button in Explore
+WebUI.waitForElementClickable(findTestObject('1.MKP/Explore/button_Collections'), 10)
 WebUI.click(findTestObject('1.MKP/Explore/button_Collections'))
 
-WebUI.waitForElementVisible(findTestObject('1.MKP/Explore/div_Category'), 0)
-
+WebUI.waitForElementVisible(findTestObject('1.MKP/Explore/div_Category'), 10)
 Collections_URL = WebUI.getUrl()
-
 WebUI.verifyMatch(Collections_URL, GlobalVariable.MKP_url_test + GlobalVariable.listing_collections_path, false)
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Filters'))
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/1.MKP/Explore/div_Category'))
 
 WebUI.closeBrowser()

@@ -17,14 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 //import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
-import org.openqa.selenium.support.ui.Select
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import org.openqa.selenium.support.ui.Select as Select
 
-WebUI.callTestCase(findTestCase('1.MKP/BeforeTest/OpenChromeProfiles'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('1.MKP/BeforeTest/OpenMultiBrowsers'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.MKP_url)
 
-WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/img_header_profile_avatar')), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/1.MKP/Sell/img_header_profile_avatar'), 5)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/img_header_profile_avatar'))
 
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_My Profile'))
@@ -47,14 +48,19 @@ WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_dateRange'))
 
 //select 24 hours from dropdown
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/div_Date Range_3 days'))
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Confirm_Duration'))
 
-WebUI.waitForElementClickable((findTestObject('Object Repository/1.MKP/Sell/button_Place on market')), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'), 5)
+
 WebUI.click(findTestObject('Object Repository/1.MKP/Sell/button_Place on market'))
 
 //close popup web3
 WebUI.switchToWindowIndex(1)
+
 WebUI.click(findTestObject('1.MKP/Sell/button_Cancel'))
+
 WebUI.switchToWindowIndex(0)
 
 WebUI.closeBrowser()
+

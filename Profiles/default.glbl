@@ -86,7 +86,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>2</initValue>
+      <initValue>0</initValue>
       <name>globalDelayTime</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

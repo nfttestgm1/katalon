@@ -156,6 +156,7 @@
 			<attribute name="javadoc_location" value="file:/D:/OneDrive_ManhTT_Laptop/OneDrive%20-%20VNG%20Corporation/Laptop/Katalon_Studio_Windows_64-8.5.5/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/LAP15239-local/Katalon Studio/git/katalon/Drivers/msedge-selenium-tools-java-3.141.1.jar"/>
 	<classpathentry kind="lib" path="D:/OneDrive_ManhTT_Laptop/OneDrive - VNG Corporation/Laptop/Katalon_Studio_Windows_64-8.5.5/configuration/org.eclipse.osgi/30/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
