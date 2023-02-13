@@ -29,7 +29,7 @@ System.setProperty('webdriver.chrome.driver', './webdrivers/chromedriver.exe')
 
 //Open existing Chrome Profile (da login san account)
 ChromeOptions options = new ChromeOptions()
-//List<String> eSwitches = new ArrayList()
+////List<String> eSwitches = new ArrayList()
 //eSwitches.add('enable-automation')
 //options.setExperimentalOption('excludeSwitches', eSwitches)
 options.addArguments('--user-data-dir=C:/Users/LAP15239-local/AppData/Local/Google/Chrome/User Data')
